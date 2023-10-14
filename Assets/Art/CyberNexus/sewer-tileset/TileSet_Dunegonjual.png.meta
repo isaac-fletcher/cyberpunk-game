@@ -660,7 +660,7 @@ TextureImporter:
       213: 7175979893070242769
     second: TileSet_Dunegonjual_218
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -677,9 +677,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -689,8 +692,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -711,10 +714,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -726,6 +734,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -738,6 +747,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -750,6 +760,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -5364,9 +5388,228 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      TileSet_Dunegonjual_0: -7695171029997427766
+      TileSet_Dunegonjual_1: -8289787106098518128
+      TileSet_Dunegonjual_10: 4378873833986850841
+      TileSet_Dunegonjual_100: 319556997640647005
+      TileSet_Dunegonjual_101: 531993886466595127
+      TileSet_Dunegonjual_102: 8979885363064637703
+      TileSet_Dunegonjual_103: 7153953469288800644
+      TileSet_Dunegonjual_104: -2853886089989174572
+      TileSet_Dunegonjual_105: -890831173605247572
+      TileSet_Dunegonjual_106: -4617108397005897643
+      TileSet_Dunegonjual_107: -6188450199271105140
+      TileSet_Dunegonjual_108: -4429140700225518423
+      TileSet_Dunegonjual_109: -3465753455990595057
+      TileSet_Dunegonjual_11: -7009191552120113973
+      TileSet_Dunegonjual_110: 3502961279794582234
+      TileSet_Dunegonjual_111: 5339094421621458218
+      TileSet_Dunegonjual_112: -8928385958863835225
+      TileSet_Dunegonjual_113: -530928805292146367
+      TileSet_Dunegonjual_114: 3146749854208334210
+      TileSet_Dunegonjual_115: -5781287098836939656
+      TileSet_Dunegonjual_116: 6598711852563099106
+      TileSet_Dunegonjual_117: 4543682702638269345
+      TileSet_Dunegonjual_118: 4277945456910981610
+      TileSet_Dunegonjual_119: 5525666670462745644
+      TileSet_Dunegonjual_12: 4723025669248410306
+      TileSet_Dunegonjual_120: 2483714110560045682
+      TileSet_Dunegonjual_121: -3242272665762909246
+      TileSet_Dunegonjual_122: -8097799707825160168
+      TileSet_Dunegonjual_123: -3737010747589356966
+      TileSet_Dunegonjual_124: -5979405398713873609
+      TileSet_Dunegonjual_125: 7147850021210245436
+      TileSet_Dunegonjual_126: 4909734807776546608
+      TileSet_Dunegonjual_127: -4691173338776796913
+      TileSet_Dunegonjual_128: -550458908360799808
+      TileSet_Dunegonjual_129: -2478814090628165623
+      TileSet_Dunegonjual_13: 8991677310481169977
+      TileSet_Dunegonjual_130: 4540226659624219883
+      TileSet_Dunegonjual_131: 1744097700844043667
+      TileSet_Dunegonjual_132: 1105429282176658468
+      TileSet_Dunegonjual_133: 8599174515156341813
+      TileSet_Dunegonjual_134: 8943752896728891531
+      TileSet_Dunegonjual_135: 5057955970102803113
+      TileSet_Dunegonjual_136: -3535758665110674705
+      TileSet_Dunegonjual_137: 3889072112619842254
+      TileSet_Dunegonjual_138: -2347257800479657150
+      TileSet_Dunegonjual_139: -398917960241179022
+      TileSet_Dunegonjual_14: 1592504556859843046
+      TileSet_Dunegonjual_140: -3648382006049679301
+      TileSet_Dunegonjual_141: -1380039728392898592
+      TileSet_Dunegonjual_142: -7886818495465090370
+      TileSet_Dunegonjual_143: -6421946855573317551
+      TileSet_Dunegonjual_144: 1803428387129276116
+      TileSet_Dunegonjual_145: 9034451115907011321
+      TileSet_Dunegonjual_146: 242335715533560657
+      TileSet_Dunegonjual_147: -3571842341322476234
+      TileSet_Dunegonjual_148: -7166697023043084271
+      TileSet_Dunegonjual_149: -2369869808580862696
+      TileSet_Dunegonjual_15: 1818760786883902359
+      TileSet_Dunegonjual_150: 461575020013124237
+      TileSet_Dunegonjual_151: -8785724259325038277
+      TileSet_Dunegonjual_152: -7133783371116796466
+      TileSet_Dunegonjual_153: 4980367065534856690
+      TileSet_Dunegonjual_154: -2949547564245231910
+      TileSet_Dunegonjual_155: -4351075028221159784
+      TileSet_Dunegonjual_156: -8100185875044941000
+      TileSet_Dunegonjual_157: -7305629324809391530
+      TileSet_Dunegonjual_158: -6706223754461945058
+      TileSet_Dunegonjual_159: -3987371525401726910
+      TileSet_Dunegonjual_16: -5670808189436583874
+      TileSet_Dunegonjual_160: -7183060857622378540
+      TileSet_Dunegonjual_161: 8134833669278856709
+      TileSet_Dunegonjual_162: -2665682739640006616
+      TileSet_Dunegonjual_163: -6119242492373353544
+      TileSet_Dunegonjual_164: 2461937034196162442
+      TileSet_Dunegonjual_165: -2656700847566377868
+      TileSet_Dunegonjual_166: -4599275077880057644
+      TileSet_Dunegonjual_167: -3473931492654335645
+      TileSet_Dunegonjual_168: -2405294030017507806
+      TileSet_Dunegonjual_169: -3943251313024959300
+      TileSet_Dunegonjual_17: -7919127267370589012
+      TileSet_Dunegonjual_170: 1397134174027486734
+      TileSet_Dunegonjual_171: 5687103977286639574
+      TileSet_Dunegonjual_172: 1236014670069948454
+      TileSet_Dunegonjual_173: -1893438694200499293
+      TileSet_Dunegonjual_174: -2656413018133508856
+      TileSet_Dunegonjual_175: 8901243749156068016
+      TileSet_Dunegonjual_176: 14016510261596493
+      TileSet_Dunegonjual_177: 769064437801850062
+      TileSet_Dunegonjual_178: -5226429829811622294
+      TileSet_Dunegonjual_179: 5939967085889453631
+      TileSet_Dunegonjual_18: -8302592421123431380
+      TileSet_Dunegonjual_180: 7788846607906743203
+      TileSet_Dunegonjual_181: 1596789225787354650
+      TileSet_Dunegonjual_182: 8600871663935545400
+      TileSet_Dunegonjual_183: -552353957216582508
+      TileSet_Dunegonjual_184: 2728327057938316519
+      TileSet_Dunegonjual_185: 6085986915218830211
+      TileSet_Dunegonjual_186: -5313874679110502399
+      TileSet_Dunegonjual_187: 5573524692437166620
+      TileSet_Dunegonjual_188: 8646278644483373101
+      TileSet_Dunegonjual_189: 6772655503179773280
+      TileSet_Dunegonjual_19: 6405151292866740668
+      TileSet_Dunegonjual_190: 3527559159956123429
+      TileSet_Dunegonjual_191: 3927131761056419905
+      TileSet_Dunegonjual_192: 850110085703634055
+      TileSet_Dunegonjual_193: -763372887201133726
+      TileSet_Dunegonjual_194: -5721440223979220611
+      TileSet_Dunegonjual_195: 1490418252745719029
+      TileSet_Dunegonjual_196: -6911680900153358321
+      TileSet_Dunegonjual_197: -5911741851841454721
+      TileSet_Dunegonjual_198: 4684660285576970816
+      TileSet_Dunegonjual_199: -2559415901771385712
+      TileSet_Dunegonjual_2: -1662862714468899550
+      TileSet_Dunegonjual_20: 7190994467265328432
+      TileSet_Dunegonjual_200: 2287019030782025585
+      TileSet_Dunegonjual_201: -2666356798408422517
+      TileSet_Dunegonjual_202: 4610415695340229213
+      TileSet_Dunegonjual_203: 3291086973598789449
+      TileSet_Dunegonjual_204: 3109758879806439057
+      TileSet_Dunegonjual_205: -8494491959076879748
+      TileSet_Dunegonjual_206: -7309119154529748393
+      TileSet_Dunegonjual_207: 4887706575427441697
+      TileSet_Dunegonjual_208: 689713531127339276
+      TileSet_Dunegonjual_209: -6145204657478030206
+      TileSet_Dunegonjual_21: -3848876945386996010
+      TileSet_Dunegonjual_210: 2999877000708120468
+      TileSet_Dunegonjual_211: -3699426638166766189
+      TileSet_Dunegonjual_212: 7607325571002257537
+      TileSet_Dunegonjual_213: 7531133486340397038
+      TileSet_Dunegonjual_214: -965083718722104244
+      TileSet_Dunegonjual_215: -6979358993441430037
+      TileSet_Dunegonjual_216: 6823964287929813904
+      TileSet_Dunegonjual_217: -2252260461394583484
+      TileSet_Dunegonjual_218: 7175979893070242769
+      TileSet_Dunegonjual_22: -6148716485101221452
+      TileSet_Dunegonjual_23: 7323397020955431507
+      TileSet_Dunegonjual_24: -3276761188105028187
+      TileSet_Dunegonjual_25: 7981554809755321714
+      TileSet_Dunegonjual_26: -511871263258012830
+      TileSet_Dunegonjual_27: 7272366765211801301
+      TileSet_Dunegonjual_28: 2696299144969044033
+      TileSet_Dunegonjual_29: 3975691943521644892
+      TileSet_Dunegonjual_3: -5868683764473976126
+      TileSet_Dunegonjual_30: 1175268889225163958
+      TileSet_Dunegonjual_31: 3658821611538284535
+      TileSet_Dunegonjual_32: 2634239562003863527
+      TileSet_Dunegonjual_33: 898971073822932081
+      TileSet_Dunegonjual_34: 707224352307146266
+      TileSet_Dunegonjual_35: -2343467987004504673
+      TileSet_Dunegonjual_36: 3201097984306349248
+      TileSet_Dunegonjual_37: -4629452027383464135
+      TileSet_Dunegonjual_38: 5415650671279826886
+      TileSet_Dunegonjual_39: 2210771738607151578
+      TileSet_Dunegonjual_4: -3265490594631669515
+      TileSet_Dunegonjual_40: 3139020423723975943
+      TileSet_Dunegonjual_41: 554296870465634503
+      TileSet_Dunegonjual_42: 1977020876336685803
+      TileSet_Dunegonjual_43: -8042282146947542137
+      TileSet_Dunegonjual_44: 1610754818671730816
+      TileSet_Dunegonjual_45: -2373916916094287846
+      TileSet_Dunegonjual_46: 8910266352663941970
+      TileSet_Dunegonjual_47: 8564905523098173910
+      TileSet_Dunegonjual_48: -6696918522794645913
+      TileSet_Dunegonjual_49: 4321025511590146472
+      TileSet_Dunegonjual_5: 550837156591759482
+      TileSet_Dunegonjual_50: 1771271380901428915
+      TileSet_Dunegonjual_51: 4573031675595250779
+      TileSet_Dunegonjual_52: -6870697035992684099
+      TileSet_Dunegonjual_53: 5941075443749194552
+      TileSet_Dunegonjual_54: -5424269421957260944
+      TileSet_Dunegonjual_55: -4136418765310451504
+      TileSet_Dunegonjual_56: -2375216406023033476
+      TileSet_Dunegonjual_57: -7498343993401353720
+      TileSet_Dunegonjual_58: 2470702368904245808
+      TileSet_Dunegonjual_59: -2495184772252428249
+      TileSet_Dunegonjual_6: -2766023404876993718
+      TileSet_Dunegonjual_60: -1306495245210264209
+      TileSet_Dunegonjual_61: 4713661149245900523
+      TileSet_Dunegonjual_62: 56701400245428155
+      TileSet_Dunegonjual_63: 1545286647266569846
+      TileSet_Dunegonjual_64: 3905712944062668748
+      TileSet_Dunegonjual_65: -1298580701454962715
+      TileSet_Dunegonjual_66: 2920370735668102664
+      TileSet_Dunegonjual_67: -1855720939855407345
+      TileSet_Dunegonjual_68: 9041404645703841642
+      TileSet_Dunegonjual_69: 4936315590053922673
+      TileSet_Dunegonjual_7: 692567750881637428
+      TileSet_Dunegonjual_70: -5052347665434329733
+      TileSet_Dunegonjual_71: 8621413247421415452
+      TileSet_Dunegonjual_72: 2676560444113325813
+      TileSet_Dunegonjual_73: -8515487405417055324
+      TileSet_Dunegonjual_74: 2324246290290205280
+      TileSet_Dunegonjual_75: -2606280814970688642
+      TileSet_Dunegonjual_76: 514394088377348858
+      TileSet_Dunegonjual_77: 4919870086133607503
+      TileSet_Dunegonjual_78: 3957993705898511844
+      TileSet_Dunegonjual_79: 5593204920112915144
+      TileSet_Dunegonjual_8: -678625437992107327
+      TileSet_Dunegonjual_80: 1448708914792889133
+      TileSet_Dunegonjual_81: 4573468947592359570
+      TileSet_Dunegonjual_82: -6947675029069869972
+      TileSet_Dunegonjual_83: -3563165767146429665
+      TileSet_Dunegonjual_84: -6897477910875924346
+      TileSet_Dunegonjual_85: -4234414860260366481
+      TileSet_Dunegonjual_86: 1659067949854518629
+      TileSet_Dunegonjual_87: -4160032654204175754
+      TileSet_Dunegonjual_88: -4104467397274778487
+      TileSet_Dunegonjual_89: 1797243798156114872
+      TileSet_Dunegonjual_9: 5849228441555554697
+      TileSet_Dunegonjual_90: -3518345488533738818
+      TileSet_Dunegonjual_91: 8780703106656748977
+      TileSet_Dunegonjual_92: -5425499730948845809
+      TileSet_Dunegonjual_93: -3675489685565794742
+      TileSet_Dunegonjual_94: -7437126624884913916
+      TileSet_Dunegonjual_95: 7962914472909959286
+      TileSet_Dunegonjual_96: 5157843709413720011
+      TileSet_Dunegonjual_97: 901702668566046171
+      TileSet_Dunegonjual_98: 302759391132078239
+      TileSet_Dunegonjual_99: 6352026827337156594
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

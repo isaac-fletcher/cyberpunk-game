@@ -120,7 +120,7 @@ TextureImporter:
       213: 48027785112949238
     second: Prototype_Worksheet_38
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -137,9 +137,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -149,8 +152,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -171,10 +174,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -186,6 +194,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -198,6 +207,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -210,6 +220,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1044,9 +1068,48 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Prototype_Worksheet_0: -8720251015118728250
+      Prototype_Worksheet_1: 7118394115239475737
+      Prototype_Worksheet_10: 5104543343397833927
+      Prototype_Worksheet_11: -1103049615465507825
+      Prototype_Worksheet_12: 2874589863707679113
+      Prototype_Worksheet_13: 780532692318968474
+      Prototype_Worksheet_14: -1267789875955028437
+      Prototype_Worksheet_15: -2412666213435306802
+      Prototype_Worksheet_16: -492871907532497432
+      Prototype_Worksheet_17: -3854123609654694765
+      Prototype_Worksheet_18: -1178245145902548097
+      Prototype_Worksheet_19: -947164421479312646
+      Prototype_Worksheet_2: -9119848235890177297
+      Prototype_Worksheet_20: 4205858970225277211
+      Prototype_Worksheet_21: -6947832527698403506
+      Prototype_Worksheet_22: -1148006390195781355
+      Prototype_Worksheet_23: -3492885805791498472
+      Prototype_Worksheet_24: -8136160303091473122
+      Prototype_Worksheet_25: 6866574380100313933
+      Prototype_Worksheet_26: -706077356747048277
+      Prototype_Worksheet_27: -8909101491685228283
+      Prototype_Worksheet_28: 7763511150513121369
+      Prototype_Worksheet_29: -315400708495518772
+      Prototype_Worksheet_3: -2186618345426391499
+      Prototype_Worksheet_30: -4331027038821605792
+      Prototype_Worksheet_31: 6285373186193538845
+      Prototype_Worksheet_32: -1140366545930446956
+      Prototype_Worksheet_33: -8538050935687543129
+      Prototype_Worksheet_34: -3867811002952967481
+      Prototype_Worksheet_35: -3196036825768120862
+      Prototype_Worksheet_36: -8560846918001126718
+      Prototype_Worksheet_37: 677823798909380354
+      Prototype_Worksheet_38: 48027785112949238
+      Prototype_Worksheet_4: -1995026472990972297
+      Prototype_Worksheet_5: -5845972944920923189
+      Prototype_Worksheet_6: 1234759246784900625
+      Prototype_Worksheet_7: -4512499806062062676
+      Prototype_Worksheet_8: 8283140582230601652
+      Prototype_Worksheet_9: -5594671743641633225
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
