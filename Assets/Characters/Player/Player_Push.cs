@@ -5,8 +5,6 @@ using UnityEngine.InputSystem;
 
 public class Player_Push : MonoBehaviour
 {
-    // TODO: FINISH TUTORIAL ON BOX PUSHING AND PULLING: https://www.youtube.com/watch?v=Qz2qMxmtxpQ&t=41s&ab_channel=DonHaulGameDev-Wabble-UnityTutorials
-    // LEFT OFF at 7:45
     public float distance=1f;
 
     // Store player direction in which they are facing. Obtain this from player movement?
