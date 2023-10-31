@@ -7,6 +7,8 @@ public class Player_Push : MonoBehaviour
 {
     public float distance=1f;
 
+    public bool isPushing = false;
+
     // Store player direction in which they are facing. Obtain this from player movement?
     Vector2 direction;
     public LayerMask boxMask;
@@ -30,6 +32,7 @@ public class Player_Push : MonoBehaviour
 
             if(hit.collider != null)
             {
+                isPushing = true;
                 box = hit.collider.gameObject;
 
                 box.GetComponent<FixedJoint2D> ().enabled = true; 
@@ -38,6 +41,7 @@ public class Player_Push : MonoBehaviour
             }
             else if(box != null)
             {
+                isPushing = false;
                 box.GetComponent<FixedJoint2D> ().enabled = false;
             }
         }

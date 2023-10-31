@@ -38,7 +38,13 @@ public class PlayerController : MonoBehaviour
 
         if (count == 0)
         {
-            rb.MovePosition(rb.position + inp * moveSpeed * Time.fixedDeltaTime);
+            float adjustedSpeed = moveSpeed;
+            // If player is pushing a block, reduce movement speed
+            if(FindObjectOfType<Player_Push>().isPushing)
+            {
+                adjustedSpeed = moveSpeed * (float)0.5;
+            }
+            rb.MovePosition(rb.position + inp * adjustedSpeed * Time.fixedDeltaTime);
             return true;
         }
         else
