@@ -16,6 +16,11 @@ public class MovableBlock : MonoBehaviour
         
     }
 
-    // TODO: Add collision logic for blocks to detect if block has hit wall.
-    // If collision detected freeze the block in place
+
+    // TODO:
+    // player push fires a raycast in a direction
+    // if box is hit
+        // 	box fires raycast in a direction
+        // 	if nothing is hit move box
+	    // else box doesn't move
 }
