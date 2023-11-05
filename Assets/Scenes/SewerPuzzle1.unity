@@ -4032,15 +4032,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00095510983
-    y: 0.0019267823
-    width: 0.9971347
-    height: 0.99421966
+    x: 0
+    y: 0.0025588537
+    width: 0.99954563
+    height: 0.9928352
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.29
+  orthographic size: 0.97
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4381,7 +4381,8 @@ GameObject:
   - component: {fileID: 1059437583}
   - component: {fileID: 1059437582}
   - component: {fileID: 1059437586}
-  m_Layer: 0
+  - component: {fileID: 1059437587}
+  m_Layer: 3
   m_Name: MovableBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4429,7 +4430,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1059437583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4605,7 +4606,7 @@ FixedJoint2D:
   m_GameObject: {fileID: 1059437580}
   m_Enabled: 0
   serializedVersion: 4
-  m_EnableCollision: 0
+  m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -4615,6 +4616,23 @@ FixedJoint2D:
   m_ConnectedAnchor: {x: -0.519, y: -0.313}
   m_DampingRatio: 0
   m_Frequency: 0
+--- !u!114 &1059437587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059437580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1aa8d41d14b8424d9d6f6b49cc09aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 1
+  direction: {x: 0, y: 0}
+  wall:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1198798235
 GameObject:
   m_ObjectHideFlags: 0
@@ -5114,6 +5132,7 @@ MonoBehaviour:
   p2: {fileID: 4306610298347438104, guid: 656ebd8f0f9e01543abe7323e6cd6156, type: 3}
   moveSpeed: 1
   collisionOffset: 0.01
+  pushSpeedRatio: 0.5
   movementFilter:
     useTriggers: 0
     useLayerMask: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player_Push : MonoBehaviour
+public class PlayerPush : MonoBehaviour
 {
     public float distance=1f;
 
@@ -11,13 +11,12 @@ public class Player_Push : MonoBehaviour
 
     // Store player direction in which they are facing. Obtain this from player movement?
     Vector2 direction;
-    public LayerMask boxMask;
+    public LayerMask box;
 
-    GameObject box;
+    GameObject block;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -28,21 +27,21 @@ public class Player_Push : MonoBehaviour
             Physics2D.queriesStartInColliders = false;
 
             // Cast a ray in the direction the player is moving towards(up, down, left, or right)
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, boxMask);
-
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, box);
+            
             if(hit.collider != null)
             {
                 isPushing = true;
-                box = hit.collider.gameObject;
+                block = hit.collider.gameObject;
 
-                box.GetComponent<FixedJoint2D> ().enabled = true; 
-                box.GetComponent<FixedJoint2D> ().connectedBody=this.GetComponent<Rigidbody2D> (); 
-
+                block.GetComponent<FixedJoint2D> ().enabled = true; 
+                block.GetComponent<FixedJoint2D> ().connectedBody=this.GetComponent<Rigidbody2D> (); 
             }
-            else if(box != null)
+            else if(block != null)
             {
                 isPushing = false;
-                box.GetComponent<FixedJoint2D> ().enabled = false;
+                block.GetComponent<FixedJoint2D> ().enabled = false;
+                block = null;
             }
         }
     }

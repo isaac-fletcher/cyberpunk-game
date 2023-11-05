@@ -10,12 +10,15 @@ public class PlayerInputManager : MonoBehaviour
 
     public float moveSpeed = 1.0f;
     public float collisionOffset = 0.01f;
+    public float pushSpeedRatio = 0.5f;
     public ContactFilter2D movementFilter;
-    
+
     PlayerInput p1Input;
     PlayerInput p2Input;
     Rigidbody2D p1rb;
     Rigidbody2D p2rb;
+    PlayerPush p1Push;
+    PlayerPush p2Push;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     // Start is called before the first frame update
@@ -25,6 +28,8 @@ public class PlayerInputManager : MonoBehaviour
         p2Input = PlayerInput.Instantiate(p2, 1, "p2Input", pairWithDevice: Gamepad.current);
         p1rb = p1Input.GetComponent<Rigidbody2D>();
         p2rb = p2Input.GetComponent<Rigidbody2D>();
+        p1Push = p1Input.GetComponent<PlayerPush>();
+        p2Push = p2Input.GetComponent<PlayerPush>();
     }
 
     private void FixedUpdate()
@@ -58,10 +63,25 @@ public class PlayerInputManager : MonoBehaviour
 
         if (count == 0)
         {
+            // Move player
             if (index == 0)
-                p1rb.MovePosition(p1rb.position + inp * moveSpeed * Time.fixedDeltaTime);
+                if(p1Push.isPushing)
+                {
+                    p1rb.MovePosition(p1rb.position + inp * moveSpeed * pushSpeedRatio * Time.fixedDeltaTime);
+                }
+                else
+                {
+                    p1rb.MovePosition(p1rb.position + inp * moveSpeed * Time.fixedDeltaTime);
+                }
             else
-                p2rb.MovePosition(p2rb.position + inp * moveSpeed * Time.fixedDeltaTime);
+                if(p2Push.isPushing)
+                {
+                    p2rb.MovePosition(p2rb.position + inp * moveSpeed * pushSpeedRatio * Time.fixedDeltaTime);
+                }
+                else
+                {
+                    p2rb.MovePosition(p2rb.position + inp * moveSpeed * Time.fixedDeltaTime);
+                }
             return true;
         }
         else
