@@ -20,7 +20,6 @@ public class PressurePlate : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D c)
     {
-        Debug.Log(c);
         if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
             door.SetActive(false);
         else

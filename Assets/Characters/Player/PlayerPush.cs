@@ -29,7 +29,7 @@ public class PlayerPush : MonoBehaviour
             // Cast a ray in the direction the player is moving towards(up, down, left, or right)
             RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, box);
             
-            if(hit.collider != null)
+            if(hit.collider != null && hit.collider.gameObject.tag=="Block")
             {
                 isPushing = true;
                 block = hit.collider.gameObject;
@@ -46,6 +46,7 @@ public class PlayerPush : MonoBehaviour
         }
     }
 
+    // This is used strictly for debugging. This gizmos shows the push range for the player
     void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;

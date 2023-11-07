@@ -4034,7 +4034,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0.0025588537
-    width: 0.99954563
+    width: 1.0004568
     height: 0.9928352
   near clip plane: 0.3
   far clip plane: 1000
@@ -4381,10 +4381,9 @@ GameObject:
   - component: {fileID: 1059437583}
   - component: {fileID: 1059437582}
   - component: {fileID: 1059437586}
-  - component: {fileID: 1059437587}
   m_Layer: 3
   m_Name: MovableBlock
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4399,7 +4398,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.077, y: -0.277, z: -0.010208015}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1011563700}
@@ -4417,8 +4416,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
-  m_AngularDrag: 0.05
+  m_LinearDrag: 100
+  m_AngularDrag: 100
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4429,7 +4428,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &1059437583
 BoxCollider2D:
@@ -4616,23 +4615,6 @@ FixedJoint2D:
   m_ConnectedAnchor: {x: -0.519, y: -0.313}
   m_DampingRatio: 0
   m_Frequency: 0
---- !u!114 &1059437587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059437580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1aa8d41d14b8424d9d6f6b49cc09aee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distance: 1
-  direction: {x: 0, y: 0}
-  wall:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &1198798235
 GameObject:
   m_ObjectHideFlags: 0
