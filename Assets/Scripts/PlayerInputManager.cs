@@ -122,7 +122,7 @@ public class PlayerInputManager : MonoBehaviour
         {
             // Move player
             if (index == 0)
-            
+            {
                 Vector2 posChange;
 
                 if(p1Push.isPushing)
@@ -139,7 +139,9 @@ public class PlayerInputManager : MonoBehaviour
                 p1LastState = animation;
 
                 p1rb.MovePosition(p1rb.position + posChange);
+            }
             else
+            {
                 Vector2 posChange;
 
                 if(p2Push.isPushing)
@@ -156,6 +158,7 @@ public class PlayerInputManager : MonoBehaviour
                 p2LastState = animation;
 
                 p2rb.MovePosition(p2rb.position + posChange);
+            }
             return true;
         }
         else
