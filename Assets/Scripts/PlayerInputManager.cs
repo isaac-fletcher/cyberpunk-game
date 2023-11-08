@@ -10,12 +10,15 @@ public class PlayerInputManager : MonoBehaviour
 
     public float moveSpeed = 1.0f;
     public float collisionOffset = 0.01f;
+    public float pushSpeedRatio = 0.5f;
     public ContactFilter2D movementFilter;
-    
+
     PlayerInput p1Input;
     PlayerInput p2Input;
     Rigidbody2D p1rb;
     Rigidbody2D p2rb;
+    PlayerPush p1Push;
+    PlayerPush p2Push;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     Animator p1Anim;
@@ -45,6 +48,8 @@ public class PlayerInputManager : MonoBehaviour
         p2rb = p2Input.GetComponent<Rigidbody2D>();
         p1Anim = p1Input.GetComponent<Animator>();
         p2Anim = p2Input.GetComponent<Animator>();
+        p1Push = p1Input.GetComponent<PlayerPush>();
+        p2Push = p2Input.GetComponent<PlayerPush>();
     }
 
     private void FixedUpdate()
@@ -115,25 +120,42 @@ public class PlayerInputManager : MonoBehaviour
 
         if (count == 0)
         {
+            // Move player
             if (index == 0)
-            {
-                Vector2 posChange = inp * moveSpeed * Time.fixedDeltaTime;
+            
+                Vector2 posChange;
+
+                if(p1Push.isPushing)
+                {
+                    posChange = inp * moveSpeed * pushSpeedRatio * Time.fixedDeltaTime;
+                }
+                else
+                {
+                    posChange = inp * moveSpeed * Time.fixedDeltaTime;
+                }
+
                 string animation = selectMovement(posChange);
                 p1Anim.Play(animation);
                 p1LastState = animation;
 
                 p1rb.MovePosition(p1rb.position + posChange);
-            }
             else
-            {
-                Vector2 posChange = inp * moveSpeed * Time.fixedDeltaTime;
+                Vector2 posChange;
+
+                if(p2Push.isPushing)
+                {
+                    posChange = inp * moveSpeed * pushSpeedRatio * Time.fixedDeltaTime;
+                }
+                else
+                {
+                    posChange = inp * moveSpeed * Time.fixedDeltaTime;
+                }
+
                 string animation = selectMovement(posChange);
                 p2Anim.Play(animation);
                 p2LastState = animation;
-                
-                p2rb.MovePosition(p2rb.position + posChange);
-            }
 
+                p2rb.MovePosition(p2rb.position + posChange);
             return true;
         }
         else

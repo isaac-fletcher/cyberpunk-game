@@ -20,7 +20,7 @@ public class PressurePlate : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D c)
     {
-        if (c.gameObject.CompareTag("Player"))
+        if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
             door.SetActive(false);
         else
             door.SetActive(true);
@@ -28,7 +28,7 @@ public class PressurePlate : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D c)
     {
-        if (c.gameObject.CompareTag("Player"))
+        if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
             door.SetActive(true);
     }
 
