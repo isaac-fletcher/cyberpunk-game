@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ceb0d803a9a06548b3d836ca8681510
+guid: 53f6e785ff2bd4f4fa89cd444d4d0936
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Zen Dots
+  - Color Basic
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
