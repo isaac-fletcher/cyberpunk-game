@@ -8,6 +8,10 @@ public class PlayerInputManager : MonoBehaviour
     public GameObject p1;
     public GameObject p2;
 
+    public float p1StartPosX = -0.1f;
+    public float p1StartPosY = 0.0f;
+    public float p2StartPosX = 0.1f;
+    public float p2StartPosY = 0.0f;
     public float moveSpeed = 1.0f;
     public float collisionOffset = 0.01f;
     public ContactFilter2D movementFilter;
@@ -45,6 +49,8 @@ public class PlayerInputManager : MonoBehaviour
         p2rb = p2Input.GetComponent<Rigidbody2D>();
         p1Anim = p1Input.GetComponent<Animator>();
         p2Anim = p2Input.GetComponent<Animator>();
+        p1rb.MovePosition(new Vector2(p1StartPosX, p1StartPosY));
+        p2rb.MovePosition(new Vector2(p2StartPosX, p2StartPosY));
     }
 
     private void FixedUpdate()
