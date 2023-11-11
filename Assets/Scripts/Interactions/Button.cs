@@ -24,7 +24,7 @@ public class Button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D c)
     {
-        if (c.gameObject.CompareTag("Player"))
+        if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
         {
             door2.SetActive(false);
             door1StayOpen = true;

@@ -21,7 +21,7 @@ public class PressurePlate : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D c)
     {
-        if (c.gameObject.CompareTag("Player"))
+        if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
         {
             foreach (var target in targets)
             {
@@ -35,7 +35,7 @@ public class PressurePlate : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D c)
     {
-        if (c.gameObject.CompareTag("Player"))
+        if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
         {
             foreach (var target in targets)
             {

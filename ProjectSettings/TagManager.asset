@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Bridge
   - Door
+  - Block
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - box
   - Water
   - UI
   - 

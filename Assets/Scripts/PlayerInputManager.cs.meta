@@ -6,6 +6,7 @@ MonoImporter:
   defaultReferences:
   - p1: {fileID: 130304292298100302, guid: bd959e764dec50a4aac9c4e380ebb114, type: 3}
   - p2: {fileID: 4306610298347438104, guid: 656ebd8f0f9e01543abe7323e6cd6156, type: 3}
+  - playerPush: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
