@@ -35,6 +35,12 @@ public class IntroDialogueScript : MonoBehaviour
 	// Background music
 	public AudioSource bgMusic;
 
+	// Next scene to play
+	public string nextScene;
+
+	// Transition speed of scene change
+	public float transitionSpeed;
+
 	private void Start() {
 
 		// Disables rendering the note and controller layout
@@ -167,6 +173,12 @@ public class IntroDialogueScript : MonoBehaviour
 
 		// Runs fade-out for background music
 		StartCoroutine(fadeOutMusic());
+
+		// Wait for fade-out, then transition to next screen
+		yield return new WaitForSecondsRealtime(6);
+
+		// Fade to next 
+		Initiate.Fade(nextScene, Color.black, transitionSpeed);
 	}
 
 	// Runs controller layout fade-in

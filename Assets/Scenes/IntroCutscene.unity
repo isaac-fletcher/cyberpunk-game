@@ -169,13 +169,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 0.2
   quiettingSpeed: 5
-  maxWalkingVol: 0.12
+  maxWalkingVol: 0.07
   note: {fileID: 182385664}
   controlLayout: {fileID: 488541377}
   noteReveal: {fileID: 915726332}
   lighterFlicking: {fileID: 131903239}
   walking: {fileID: 1617650464}
   bgMusic: {fileID: 1707143367}
+  nextScene: SewerPuzzle1
+  transitionSpeed: 1
 --- !u!1 &131903238
 GameObject:
   m_ObjectHideFlags: 0

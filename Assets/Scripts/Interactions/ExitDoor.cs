@@ -42,6 +42,5 @@ public class ExitDoor : MonoBehaviour
 
         if (p1out && p2out)
             Initiate.Fade(nextScene, Color.black, transitionSpeed);
-            //Application.Quit(); // will use SceneManager to change area in the future
     }
 }
