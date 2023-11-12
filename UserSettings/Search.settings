@@ -8,9 +8,15 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+<<<<<<< HEAD
+<<<<<<< HEAD
 	"last_search.310DEAF1" = "sprite editor"
 	"OpenInspectorPreview.310DEAF1" = "0"
 	"currentGroup.310DEAF1" = "all"
+=======
+>>>>>>> ebd5fe2 (Added Dialogue basics)
+=======
+>>>>>>> 268e0eac0c217c64af2b47d3159f5f9de783c10e
 }
 providers = {
 	packages = {

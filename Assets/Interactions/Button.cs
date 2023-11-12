@@ -10,14 +10,8 @@ namespace Interactions
 
         private bool door1StayOpen;
 
-<<<<<<< HEAD:Assets/Scripts/Interactions/Button.cs
-    private void OnTriggerEnter2D(Collider2D c)
-    {
-        if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
-=======
         // Start is called before the first frame update
         void Start()
->>>>>>> ebd5fe2 (Added Dialogue basics):Assets/Interactions/Button.cs
         {
             door1StayOpen = false;
         }
