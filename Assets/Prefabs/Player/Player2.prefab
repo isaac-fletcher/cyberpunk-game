@@ -279,4 +279,4 @@ MonoBehaviour:
   isPushing: 0
   box:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
