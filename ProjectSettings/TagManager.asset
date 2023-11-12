@@ -11,10 +11,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - box
+  - Level
   - Water
   - UI
-  - 
+  - Box
   - 
   - 
   - 
@@ -43,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Plate
+    uniqueID: 997126183
+    locked: 0
+  - name: Box
+    uniqueID: 3432500645
     locked: 0
   - name: Player
     uniqueID: 2578661321
