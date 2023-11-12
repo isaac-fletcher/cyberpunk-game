@@ -11,6 +11,9 @@ public class ExitDoor : MonoBehaviour
     private bool p1out;
     private bool p2out;
 
+    public float transitionSpeed;
+    public string nextScene;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,18 +29,19 @@ public class ExitDoor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D c)
     {
-        if (c.gameObject.name == "Player1")
+        if (c.gameObject.name == player1.name)
         {
-            player1.SetActive(false);
+            c.gameObject.SetActive(false);
             p1out = true;
         }
-        else if (c.gameObject.name == "Player2")
+        if (c.gameObject.name == player2.name)
         {
-            player2.SetActive(false);
+            c.gameObject.SetActive(false);
             p2out = true;        
         }
 
         if (p1out && p2out)
-            Application.Quit(); // will use SceneManager to change area in the future
+            Initiate.Fade(nextScene, Color.black, transitionSpeed);
+            //Application.Quit(); // will use SceneManager to change area in the future
     }
 }
