@@ -251,6 +251,7 @@ MonoBehaviour:
   transitionSpeed: 1
   nextScene: IntroCutscene
   clickSound: {fileID: 394112049}
+  backgroundMusic: {fileID: 1379508612}
 --- !u!114 &394112048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1297,7 +1298,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 07643a5235fc2094581909f462ebf7ec, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.075
   m_Pitch: 1
   Loop: 1
   Mute: 0
