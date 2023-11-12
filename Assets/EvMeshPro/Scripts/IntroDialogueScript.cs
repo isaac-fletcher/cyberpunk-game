@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueExample : MonoBehaviour
+public class IntroDialogueScript : MonoBehaviour
 {
 	// The note image object
 	public Image note;
