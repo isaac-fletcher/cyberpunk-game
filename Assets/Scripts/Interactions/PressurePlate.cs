@@ -6,23 +6,28 @@ using UnityEngine.Tilemaps;
 public class PressurePlate : MonoBehaviour
 {
     public GameObject [] targets;
+    public AudioSource platePress;
+    public AudioSource plateUnpress;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void OnTriggerEnter2D(Collider2D c)
     {
         if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
         {
+            animator.Play("PressedPlate");
+            platePress.Play();
             foreach (var target in targets)
             {
                 if (target.CompareTag("Door"))
@@ -37,6 +42,8 @@ public class PressurePlate : MonoBehaviour
     {
         if (c.gameObject.CompareTag("Player") || c.gameObject.CompareTag("Block"))
         {
+            animator.Play("UnpressedPlate");
+            plateUnpress.Play();
             foreach (var target in targets)
             {
                 if (target.CompareTag("Door"))

@@ -50,14 +50,17 @@ public class PlayerInputManager : MonoBehaviour
     void Start()
     {
         p1Input = PlayerInput.Instantiate(p1, PLAYER_ONE, "p1Input", pairWithDevice: Keyboard.current);
-        p2Input = PlayerInput.Instantiate(p2, PLAYER_TWO, "p2Input", pairWithDevice: Gamepad.current);
+        p1Input.name = "Player1";
         p1rb = p1Input.GetComponent<Rigidbody2D>();
-        p2rb = p2Input.GetComponent<Rigidbody2D>();
-        p1Anim = p1Input.GetComponent<Animator>();
-        p2Anim = p2Input.GetComponent<Animator>();
         p1rb.MovePosition(new Vector2(p1StartPosX, p1StartPosY));
-        p2rb.MovePosition(new Vector2(p2StartPosX, p2StartPosY));
+        p1Anim = p1Input.GetComponent<Animator>();
         p1Push = p1Input.GetComponent<PlayerPush>();
+
+        p2Input = PlayerInput.Instantiate(p2, PLAYER_TWO, "p2Input", pairWithDevice: Gamepad.current);
+        p2Input.name = "Player2";
+        p2rb = p2Input.GetComponent<Rigidbody2D>();
+        p2rb.MovePosition(new Vector2(p2StartPosX, p2StartPosY));
+        p2Anim = p2Input.GetComponent<Animator>();       
         p2Push = p2Input.GetComponent<PlayerPush>();
     }
 
@@ -110,8 +113,6 @@ public class PlayerInputManager : MonoBehaviour
     {
         float inpX = inp.x;
         float inpY = inp.y;
-
-        Debug.Log("X Input: " + inpX + "Y Input:" + inpY);
 
         if (inp == Vector2.zero) {
             return (player == PLAYER_ONE ? p1LastState : p2LastState);
