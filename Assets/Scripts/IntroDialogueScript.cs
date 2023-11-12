@@ -251,7 +251,7 @@ public class IntroDialogueScript : MonoBehaviour
 		// While background music is not optimal volume...
 		float maxVol = 0.075f;
 		while(bgMusic.volume < maxVol){
-			// Increase volume based on current volume, the "enloudening" speed (Set to 1.5), and deltaTime
+			// Increase volume based on current volume, the "enloudening" speed (Set to 1.0), and deltaTime
 			float speed = 1.0f;
 			bgMusic.volume = bgMusic.volume + (speed * Time.deltaTime);
 			if (bgMusic.volume > maxVol)

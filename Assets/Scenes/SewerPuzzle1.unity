@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &184787852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 488221731086825156, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
+  m_PrefabInstance: {fileID: 1184664059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &184787856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184787852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d798f9827b96ec44907e3b6ab7e57ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatSceneToStop: CHANGETHIS
 --- !u!82 &212346937 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 241741414550938130, guid: 12dfa563564cc01439ff2b28edfb1f20, type: 3}
@@ -4143,15 +4161,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.0011820331
-    y: 0
-    width: 0.99763596
-    height: 0.9984399
+    x: 0
+    y: 0.001992032
+    width: 1
+    height: 0.99601597
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.5461656
+  orthographic size: 1.33
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4284,8 +4302,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00035002828, y: 0.007999986, z: 0}
-    m_Extent: {x: 0.99695003, y: 1.0019, z: 0}
+    m_Center: {x: 0.00030004978, y: -0.0012999773, z: 0}
+    m_Extent: {x: 1.0065, y: 1.0049, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5205,7 +5223,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 488221731086825156, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 184787856}
   m_SourcePrefab: {fileID: 100100000, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
 --- !u!1 &1198798235
 GameObject:
