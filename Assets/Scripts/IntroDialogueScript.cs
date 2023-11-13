@@ -177,6 +177,11 @@ public class IntroDialogueScript : MonoBehaviour
 		// Wait for fade-out, then transition to next screen
 		yield return new WaitForSecondsRealtime(6);
 
+		// Resets canvas transparency so that there is
+		// a seamless fade in with next level
+		controlLayout.enabled = false;
+		controlLayout.material.color = new Color(controlLayout.material.color.r, controlLayout.material.color.g, controlLayout.material.color.b, 1);
+
 		// Fade to next 
 		Initiate.Fade(nextScene, Color.black, transitionSpeed);
 	}
@@ -252,11 +257,11 @@ public class IntroDialogueScript : MonoBehaviour
 		float maxVol = 0.075f;
 		while(bgMusic.volume < maxVol){
 			// Increase volume based on current volume, the "enloudening" speed (Set to 1.0), and deltaTime
-			float speed = 1.0f;
+			float speed = 0.01f;
 			bgMusic.volume = bgMusic.volume + (speed * Time.deltaTime);
 			if (bgMusic.volume > maxVol)
 				bgMusic.volume = maxVol;
-			yield return new WaitForSecondsRealtime(1);
+			yield return new WaitForEndOfFrame();
 		}
 		yield return null;
 	}
@@ -266,14 +271,14 @@ public class IntroDialogueScript : MonoBehaviour
 		// While background music is not silent...
 		while(bgMusic.volume > 0){
 			// Decrease volume based on current volume, the "quietting" speed, and deltaTime
-			float speed = 3.5f;
+			float speed = 0.01f;
 			float delta = bgMusic.volume - (speed * Time.deltaTime);
 
 			if (delta < 0)
 				bgMusic.volume = 0;
 			else 
 				bgMusic.volume = delta;
-			yield return new WaitForSecondsRealtime(1);
+			yield return new WaitForEndOfFrame();
 		}
 		yield return null;
 	}
