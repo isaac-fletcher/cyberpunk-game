@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SewerPuzzle1.unity
     guid: 5ae767364371ce84a9a42accdf039952
   - enabled: 1
+    path: Assets/Scenes/SewerPuzzle2.unity
+    guid: 7ac4648962f6b8844bec7a9766442c1a
+  - enabled: 1
     path: Assets/Scenes/SewerPuzzle3.unity
     guid: 64c89394f0d4cd94484e3c4dfccbcb68
   m_configObjects: {}
