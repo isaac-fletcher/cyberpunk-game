@@ -7,6 +7,9 @@ using UnityEngine.Rendering.Universal;
 public class PoweredDoor : MonoBehaviour
 {
     public GameObject [] sources;
+    public AudioSource open;
+
+    bool opened = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +27,7 @@ public class PoweredDoor : MonoBehaviour
                 powered = false;
         }
 
-        if (powered)
+        if (powered && !opened)
             OpenDoor();
     }
 
@@ -32,5 +35,9 @@ public class PoweredDoor : MonoBehaviour
     {
         GetComponent<Collider2D>().enabled = false;
         GetComponent<TilemapRenderer>().enabled = false;
+        GetComponent<Light2D>().enabled = true;
+
+        open.Play();
+        opened = true;
     }
 }
