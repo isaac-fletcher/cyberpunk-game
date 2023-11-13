@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d798f9827b96ec44907e3b6ab7e57ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatSceneToStop: CHANGETHIS
+  whatSceneToStop: SewerPuzzle3
 --- !u!82 &212346937 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 241741414550938130, guid: 12dfa563564cc01439ff2b28edfb1f20, type: 3}
@@ -4162,9 +4162,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.001992032
+    y: 0
     width: 1
-    height: 0.99601597
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -4302,8 +4302,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00030004978, y: -0.0012999773, z: 0}
-    m_Extent: {x: 1.0065, y: 1.0049, z: 0}
+    m_Center: {x: 0.0019999743, y: 0.001150012, z: 0}
+    m_Extent: {x: 1.0063, y: 1.00845, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
