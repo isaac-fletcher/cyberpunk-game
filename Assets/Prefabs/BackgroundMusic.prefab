@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5666614638447483962}
   - component: {fileID: 5337098696561766532}
   m_Layer: 0
-  m_Name: SewerAreaMusic
+  m_Name: BackgroundMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

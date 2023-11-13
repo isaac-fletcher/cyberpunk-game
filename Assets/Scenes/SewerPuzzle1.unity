@@ -4302,8 +4302,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0019999743, y: 0.001150012, z: 0}
-    m_Extent: {x: 1.0063, y: 1.00845, z: 0}
+    m_Center: {x: -0.004999995, y: 0.00089997053, z: 0}
+    m_Extent: {x: 1.0043, y: 1.004, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5178,7 +5178,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488221731086825156, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
       propertyPath: m_Name
-      value: SewerAreaMusic
+      value: BasicSewerAreaMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 5337098696561766532, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
+      propertyPath: m_Volume
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5666614638447483962, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5783,7 +5787,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2581520073715752265, guid: c7708a1b01145b04d8f9606eef87c0e2, type: 3}
       propertyPath: nextScene
-      value: SewerPuzzle3
+      value: SewerPuzzle2
       objectReference: {fileID: 0}
     - target: {fileID: 2581520073715752265, guid: c7708a1b01145b04d8f9606eef87c0e2, type: 3}
       propertyPath: transitionSpeed

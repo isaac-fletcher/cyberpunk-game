@@ -33,33 +33,34 @@ public class BackgroundMusic : MonoBehaviour
     }
 
     // Fades in music
-	IEnumerator fadeInMusic(){
-		// While background music is not optimal volume...
-		float maxVol = 0.075f;
-		while(bgMusic.volume < maxVol){
-			// Increase volume based on current volume, the "enloudening" speed (Set to 1.0), and deltaTime
-			float speed = 1.0f;
-			bgMusic.volume = bgMusic.volume + (speed * Time.deltaTime);
-			if (bgMusic.volume > maxVol)
-				bgMusic.volume = maxVol;
-			yield return new WaitForSecondsRealtime(1);
-		}
-		yield return null;
-	}
-
-    // Fades out music
-	IEnumerator fadeOutMusic(){
-		// While background music is not silent...
-		while(bgMusic.volume > 0){
-			// Decrease volume based on current volume, the "quietting" speed, and deltaTime
-			float speed = 3.5f;
+    IEnumerator fadeInMusic(){                  
+    	// While background music is not optimal volume...                  
+    	float maxVol = 0.075f;                  
+    	while(bgMusic.volume < maxVol){                 
+    		// Increase volume based on current volume, the "enloudening" speed (Set to 1.0), and deltaTime                 
+    		float speed = 0.01f;                 
+    		bgMusic.volume = bgMusic.volume + (speed * Time.deltaTime);                 
+    		if (bgMusic.volume > maxVol)                    
+    			bgMusic.volume = maxVol;                    
+    		yield return new WaitForEndOfFrame();                
+    	}                   
+    	yield return null;                  
+    }                   
+                    
+    // Fades out music                  
+    IEnumerator fadeOutMusic(){     
+        yield return new WaitForSecondsRealtime(2);            
+    	// While background music is not silent...                  
+    	while(bgMusic.volume > 0){                  
+    		// Decrease volume based on current volume, the "quietting" speed, and deltaTime                    
+    		float speed = 0.0001f;
 			float delta = bgMusic.volume - (speed * Time.deltaTime);
 
 			if (delta < 0)
 				bgMusic.volume = 0;
 			else 
 				bgMusic.volume = delta;
-			yield return new WaitForSecondsRealtime(1);
+			yield return new WaitForEndOfFrame();
 		}
 		yield return null;
 	}

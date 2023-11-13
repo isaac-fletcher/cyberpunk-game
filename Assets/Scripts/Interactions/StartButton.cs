@@ -31,7 +31,7 @@ public class StartButton : MonoBehaviour
     // Fades to next scene
 	IEnumerator fadeToNextScene(){
         while(backgroundMusic.volume > 0){
-            float fadeOutSpeed = 6.0f;
+            float fadeOutSpeed = 0.1f;
             float delta = backgroundMusic.volume - (fadeOutSpeed * Time.deltaTime);
 
             if (delta < 0)
@@ -39,7 +39,7 @@ public class StartButton : MonoBehaviour
             else   
                 backgroundMusic.volume = delta;
             
-            yield return new WaitForSecondsRealtime(1);
+            yield return new WaitForEndOfFrame();
         }
 
 		Initiate.Fade(nextScene, Color.black, transitionSpeed);
