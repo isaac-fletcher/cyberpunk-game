@@ -8863,7 +8863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5285238018788335197, guid: 9b643f525aa6e4e4dbf46ff0360ffed0, type: 3}
       propertyPath: m_Name
-      value: MovableBlock2
+      value: MovableBlock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8925,7 +8925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5285238018788335197, guid: 9b643f525aa6e4e4dbf46ff0360ffed0, type: 3}
       propertyPath: m_Name
-      value: MovableBlock3
+      value: MovableBlock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
