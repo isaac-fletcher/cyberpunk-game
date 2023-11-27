@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d798f9827b96ec44907e3b6ab7e57ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatSceneToStop: TitleScreen
+  whatSceneToStop: CityCutscene
 --- !u!1 &144688877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,9 +3957,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.0010515247
-    width: 1.3317564
-    height: 0.5383806
+    y: 0
+    width: 1.0003847
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -9268,7 +9268,7 @@ MonoBehaviour:
   player1: {fileID: 130304292298100302, guid: bd959e764dec50a4aac9c4e380ebb114, type: 3}
   player2: {fileID: 4306610298347438104, guid: 656ebd8f0f9e01543abe7323e6cd6156, type: 3}
   transitionSpeed: 0.5
-  nextScene: TitleScreen
+  nextScene: CityCutscene
 --- !u!61 &1888417598
 BoxCollider2D:
   m_ObjectHideFlags: 0
