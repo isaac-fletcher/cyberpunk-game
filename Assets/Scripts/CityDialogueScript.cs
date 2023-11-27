@@ -6,6 +6,13 @@ using UnityEngine.UI;
 
 public class CityDialogueScript : MonoBehaviour
 {
+    // Controls the fade-out & fade-in speed
+	// of the controller layout
+	public float fadeSpeed;
+
+    // The black screen image object
+	public Image blackScreen;
+
 	// Next scene to play
 	public string nextScene;
 
@@ -13,6 +20,20 @@ public class CityDialogueScript : MonoBehaviour
 	public float transitionSpeed;
 
 	private void Start() {
+        blackScreen.enabled = true;
+
+        // Grab GameObject's color (easy for reading)
+		Color objectColor = blackScreen.GetComponent<Renderer>().material.color;
+        
+        // Update temp GameObject color
+    	objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, 255);
+
+		// Update GameObject
+		blackScreen.material.color = objectColor;
+
+        // Fades in scene using black screen image
+        StartCoroutine(fadeIn());
+
 		// Runs the Introduction Dialogue Sequence
 		StartCoroutine(cityDialogueSequence());
 	}
@@ -20,7 +41,7 @@ public class CityDialogueScript : MonoBehaviour
 	IEnumerator cityDialogueSequence(){
 
 		// Wait 2 seconds for smoother transition
-		yield return new WaitForSecondsRealtime(3);
+		yield return new WaitForSecondsRealtime(7);
 
 		// Elara
 		DialogueController.instance.NewDialogueInstance("Aiden. . . I can barely see!","character_elara");
@@ -110,5 +131,40 @@ public class CityDialogueScript : MonoBehaviour
 
 		// Fade to next 
 		Initiate.Fade(nextScene, Color.black, transitionSpeed);
+	}
+
+    // Runs controller layout fade-in
+	IEnumerator fadeIn(){
+		// While the controller layout image's A-value (controls transparency)
+		// is less than 1 (AKA, is not opaque)...
+		while(blackScreen.material.color.a > 0){
+			// Grab GameObject's color (easy for reading)
+			Color objectColor = blackScreen.material.color;
+			// Calculate fade amount based on fade speed, GameObject's current A-value, and deltaTime
+			float fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+
+			// Update temp GameObject color
+			objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+			// Update GameObject
+			blackScreen.material.color = objectColor;
+			yield return null;
+		}
+
+        blackScreen.enabled = false;
+
+        // While the controller layout image's A-value (controls transparency)
+		// is less than 1 (AKA, is not opaque)...
+		while(blackScreen.material.color.a < 1){
+			// Grab GameObject's color (easy for reading)
+			Color objectColor = blackScreen.material.color;
+			// Calculate fade amount based on fade speed, GameObject's current A-value, and deltaTime
+			float fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
+
+			// Update temp GameObject color
+			objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+			// Update GameObject
+			blackScreen.material.color = objectColor;
+			yield return null;
+		}
 	}
 }
