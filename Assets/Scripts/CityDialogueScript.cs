@@ -23,10 +23,10 @@ public class CityDialogueScript : MonoBehaviour
         blackScreen.enabled = true;
 
         // Grab GameObject's color (easy for reading)
-		Color objectColor = blackScreen.GetComponent<Renderer>().material.color;
+		Color objectColor = blackScreen.GetComponent<Image>().material.color;
         
         // Update temp GameObject color
-    	objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, 255);
+    	objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, 0);
 
 		// Update GameObject
 		blackScreen.material.color = objectColor;
