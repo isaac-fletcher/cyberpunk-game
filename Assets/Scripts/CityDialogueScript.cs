@@ -11,7 +11,7 @@ public class CityDialogueScript : MonoBehaviour
 	public float fadeSpeed;
 
     // The black screen image object
-	public Image blackScreen;
+	public GameObject blackScreen;
 
 	// Next scene to play
 	public string nextScene;
@@ -20,16 +20,16 @@ public class CityDialogueScript : MonoBehaviour
 	public float transitionSpeed;
 
 	private void Start() {
-        blackScreen.enabled = true;
+        blackScreen.GetComponent<Image>().enabled = true;
 
         // Grab GameObject's color (easy for reading)
 		Color objectColor = blackScreen.GetComponent<Image>().material.color;
         
         // Update temp GameObject color
-    	objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, 0);
+    	objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, 255);
 
 		// Update GameObject
-		blackScreen.material.color = objectColor;
+		blackScreen.GetComponent<Image>().material.color = objectColor;
 
         // Fades in scene using black screen image
         StartCoroutine(fadeIn());
@@ -137,33 +137,33 @@ public class CityDialogueScript : MonoBehaviour
 	IEnumerator fadeIn(){
 		// While the controller layout image's A-value (controls transparency)
 		// is less than 1 (AKA, is not opaque)...
-		while(blackScreen.material.color.a > 0){
+		while(blackScreen.GetComponent<Image>().material.color.a > 0){
 			// Grab GameObject's color (easy for reading)
-			Color objectColor = blackScreen.material.color;
+			Color objectColor = blackScreen.GetComponent<Image>().material.color;
 			// Calculate fade amount based on fade speed, GameObject's current A-value, and deltaTime
 			float fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
 
 			// Update temp GameObject color
 			objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
 			// Update GameObject
-			blackScreen.material.color = objectColor;
+			blackScreen.GetComponent<Image>().material.color = objectColor;
 			yield return null;
 		}
 
-        blackScreen.enabled = false;
+        blackScreen.GetComponent<Image>().enabled = false;
 
         // While the controller layout image's A-value (controls transparency)
 		// is less than 1 (AKA, is not opaque)...
-		while(blackScreen.material.color.a < 1){
+		while(blackScreen.GetComponent<Image>().material.color.a < 1){
 			// Grab GameObject's color (easy for reading)
-			Color objectColor = blackScreen.material.color;
+			Color objectColor = blackScreen.GetComponent<Image>().material.color;
 			// Calculate fade amount based on fade speed, GameObject's current A-value, and deltaTime
 			float fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
 
 			// Update temp GameObject color
 			objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
 			// Update GameObject
-			blackScreen.material.color = objectColor;
+			blackScreen.GetComponent<Image>().material.color = objectColor;
 			yield return null;
 		}
 	}
