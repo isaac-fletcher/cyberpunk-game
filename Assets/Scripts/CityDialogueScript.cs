@@ -12,7 +12,16 @@ public class CityDialogueScript : MonoBehaviour
 	// Transition speed of scene change
 	public float transitionSpeed;
 
+	// The black screen sprite
+	public GameObject blackScreen;
+
+	// The fade-in speed
+	public float fadeSpeed;
+
 	private void Start() {
+		// Fades in
+		StartCoroutine(fadeIn());
+
 		// Runs the Introduction Dialogue Sequence
 		StartCoroutine(cityDialogueSequence());
 	}
@@ -62,5 +71,22 @@ public class CityDialogueScript : MonoBehaviour
 
 		// Fade to next 
 		Initiate.Fade(nextScene, Color.black, transitionSpeed);
+	}
+
+	// Runs fade-in for the cutscene
+	IEnumerator fadeIn(){
+		// While the black screen's sprite is not fully transparent...
+		while(blackScreen.GetComponent<SpriteRenderer>().color.a > 0){
+			// Grab GameObject's color (easy for reading)
+			Color objectColor = blackScreen.GetComponent<SpriteRenderer>().color;
+			// Calculate fade amount based on fade speed, GameObject's current A-value, and deltaTime
+			float fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+
+			// Update temp GameObject color
+			objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+			// Update GameObject
+			blackScreen.GetComponent<SpriteRenderer>().color = objectColor;
+			yield return null;
+		}
 	}
 }
