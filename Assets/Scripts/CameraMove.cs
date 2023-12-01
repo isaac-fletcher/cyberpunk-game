@@ -5,6 +5,8 @@ using UnityEngine;
 public class CameraMove : MonoBehaviour
 {
 
+    public bool upDownMovement;
+
     public float movementSpeed;
 
     // Start is called before the first frame update
@@ -16,6 +18,9 @@ public class CameraMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * Time.deltaTime * movementSpeed);
+        if (!upDownMovement)
+            transform.Translate(Vector3.right * Time.deltaTime * movementSpeed);
+        else
+            transform.Translate(Vector3.up * Time.deltaTime * movementSpeed);
     }
 }

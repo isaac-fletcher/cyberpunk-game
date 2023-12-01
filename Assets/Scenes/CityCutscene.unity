@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 383539429}
   - component: {fileID: 383539428}
   m_Layer: 0
-  m_Name: Square
+  m_Name: blackScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
