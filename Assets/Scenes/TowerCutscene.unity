@@ -486,7 +486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9059049030029370658, guid: 2a7576eda578cdf428847899fc5fd4dc, type: 3}
       propertyPath: wpmReadingSpeed
-      value: 118
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 9059049030029370659, guid: 2a7576eda578cdf428847899fc5fd4dc, type: 3}
       propertyPath: m_Pivot.x
@@ -610,7 +610,7 @@ PrefabInstance:
     - target: {fileID: 5337098696561766532, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f8cc4032bfa330c46a07fa3e6659f5ff, type: 3}
+      objectReference: {fileID: 8300000, guid: d6f7b38330248cf43982f5a5380d1442, type: 3}
     - target: {fileID: 5666614638447483962, guid: 4e47b4f7f37703c409e571924585f8a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
