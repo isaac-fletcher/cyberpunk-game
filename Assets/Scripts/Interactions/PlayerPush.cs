@@ -29,7 +29,7 @@ public class PlayerPush : MonoBehaviour
             // Cast a ray in the direction the player is moving towards(up, down, left, or right)
             RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, box);
 
-            if(hit.collider != null && hit.collider.gameObject.tag=="Block")
+            if(hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Box"))
             {
                 isPushing = true;
                 block = hit.collider.gameObject;
