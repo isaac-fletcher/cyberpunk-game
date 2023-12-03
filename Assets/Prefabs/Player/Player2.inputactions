@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Cybernetic",
+                    "type": "Button",
+                    "id": "aff93d73-4a0d-4f65-8209-fa7c6f76fd4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -125,6 +134,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e0329d22-f6b9-4cd5-9c1d-f121eb30075b",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cybernetic",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },

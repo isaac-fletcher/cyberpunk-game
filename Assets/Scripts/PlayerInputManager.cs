@@ -19,6 +19,7 @@ public class PlayerInputManager : MonoBehaviour
     public float collisionOffset = 0.01f;
     public float pushSpeedRatio = 0.5f;
     public ContactFilter2D movementFilter;
+    public GameObject levelCybernetic;
 
     PlayerInput p1Input;
     PlayerInput p2Input;
@@ -33,6 +34,9 @@ public class PlayerInputManager : MonoBehaviour
 
     string p1LastState;
     string p2LastState;
+
+    bool p1HasCyber;
+    bool p2HasCyber;
 
     // idle animations
     const string IDLE_DOWN = "IdleDown";
@@ -55,6 +59,7 @@ public class PlayerInputManager : MonoBehaviour
         p1rb.MovePosition(new Vector2(p1StartPosX, p1StartPosY));
         p1Anim = p1Input.GetComponent<Animator>();
         p1Push = p1Input.GetComponent<PlayerPush>();
+        p1HasCyber = false;
 
         p2Input = PlayerInput.Instantiate(p2, PLAYER_TWO, "p2Input", pairWithDevice: Gamepad.current);
         p2Input.name = "Player2";
@@ -62,6 +67,7 @@ public class PlayerInputManager : MonoBehaviour
         p2rb.MovePosition(new Vector2(p2StartPosX, p2StartPosY));
         p2Anim = p2Input.GetComponent<Animator>();       
         p2Push = p2Input.GetComponent<PlayerPush>();
+        p2HasCyber = false;
     }
 
     private void FixedUpdate()
@@ -96,6 +102,16 @@ public class PlayerInputManager : MonoBehaviour
             playMovement(idleAnimation, PLAYER_TWO);
         }
 
+        if (p1Input.actions["Cybernetic"].triggered && p1HasCyber)
+        {
+            levelCybernetic.GetComponent<ElectricityCybernetic>().Activate(p1, p1rb.position, (p2rb.position - p1rb.position) / 100);
+            p1HasCyber = false;
+        }
+        if (p2Input.actions["Cybernetic"].triggered && p2HasCyber)
+        {
+            levelCybernetic.GetComponent<ElectricityCybernetic>().Activate(p2, p2rb.position, (p1rb.position - p2rb.position) / 100);
+            p2HasCyber = false;
+        }
     }
 
     private string selectIdle(int player)
@@ -174,6 +190,18 @@ public class PlayerInputManager : MonoBehaviour
         else
         {
             return false;
+        }
+    }
+
+    public void MakeCyberneticActive(GameObject p)
+    {
+        if (p.name == "Player1")
+        {
+            p1HasCyber = true;
+        }
+        else
+        {
+            p2HasCyber = true;
         }
     }
 }
