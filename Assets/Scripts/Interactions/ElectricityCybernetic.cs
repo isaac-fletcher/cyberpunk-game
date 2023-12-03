@@ -49,6 +49,7 @@ public class ElectricityCybernetic : MonoBehaviour
         if(c.gameObject.tag == "Receiver")
         {
             Debug.Log("Received");
+            c.gameObject.GetComponent<Receiver>().OnPowered();
         }
         else if (c.gameObject.tag == "Player" && c.gameObject.name != thrower.name)
         {
@@ -64,7 +65,7 @@ public class ElectricityCybernetic : MonoBehaviour
             Debug.Log("Absorbed");
             Reset();
         }
-        else if (c.gameObject.name == "Wall")
+        else if (c.gameObject.name == "Wall" || c.gameObject.tag == "Door")
         {
             Debug.Log("Died to wall");
             Reset();
