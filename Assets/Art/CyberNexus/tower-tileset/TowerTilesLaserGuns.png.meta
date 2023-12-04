@@ -1,0 +1,7167 @@
+fileFormatVersion: 2
+guid: 850fa9b44888a444594cf6e9b2bf3ba8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TowerTiles2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32eeb0e9ef4e9249a2a75a31ccf4983
+      internalID: 1332955945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d85d6a7289eee4f802204fb725971f
+      internalID: -1623550300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241131684e634d44c9c7637701586855
+      internalID: -1647784478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7886878eb10d9a41ab8ff107559a0d0
+      internalID: -1249944981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b7f8cd13d3d9c4d96422ca5775c2ce
+      internalID: 975679565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228af5ed6156563418ccfd3b5d8ddc9c
+      internalID: 1867619660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b837b9fadcfd47abc66419fbe820e
+      internalID: 522179222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190991cc7d6720a43aa69dbfe001e6cf
+      internalID: -213176797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f42e28a27349546a7d6afd0bf8b177
+      internalID: 1762743023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ace35805981fa24d8e39056a3ae32c0
+      internalID: 2038564289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5ea8979df65e64687ee1853b2175cd
+      internalID: 391483341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4990f2e77cbfea544b04150f0f4df21b
+      internalID: 698060871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daa8ad7c998c304d83091f214212f75
+      internalID: -1146346666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cb8cafd18ac4d4187f596283e393c6
+      internalID: -1275440563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b703743e58ed60243b722709f4a09602
+      internalID: 1486172290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 955
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02280f00fca11f14d8856d5ab1daeaa5
+      internalID: 1203587021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21975a8b47e4a540a2b1772eb856e4b
+      internalID: 594127180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe438c7ca6ccd349bae33a4dd99594a
+      internalID: -1285468574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79f9b29016aeae4fbfe7898352106f7
+      internalID: -1348403932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb19a45a167dee408fd74f02ac35c76
+      internalID: -1036267714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88a7e8ad77e1594e90afca77676222a
+      internalID: -1802957904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bb48b2a8c0f154db0ad225f8c05835
+      internalID: 84445590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f5ba45d51602f46a0ca34fcfbaec5d
+      internalID: -262231437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd20814a84540774b9d5ed064153c5e9
+      internalID: -1597230112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f441c695644c33c40ad3be361662276a
+      internalID: 322772812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11856939dccccca408a5c371415885dd
+      internalID: 510406788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd36cc1b2418f1d4395806ff9c84dd58
+      internalID: -510662593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ac4ab7eed27a429273a812b62b75f
+      internalID: 423153984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12737701469fafe408c0d919b64de0f6
+      internalID: -86111014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d10fa82266d26428c737673d5c6ab9
+      internalID: -650004727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 913
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221af0c230c1d97499773f89bf9efc0b
+      internalID: -1555158601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa0cf25e9ca57e4baad5c8d453dd7af
+      internalID: 2099710480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcda0dc975ccc84db314e84af3e04f9
+      internalID: 1257420469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924e159dfdc0f9a458cc7accb998d367
+      internalID: -477533568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e4cb7d363bea9488a475c9785c480d
+      internalID: 1253328810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfef6f6176317b4e97773a5551edbf1
+      internalID: 341162611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c029c6356d0a0849a9a89e74ef65bd0
+      internalID: -893474454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92682717b7d81c4084c033636957952
+      internalID: 1246529338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c1162a0e24304688f5c78bc81b77b
+      internalID: -1300073967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eae7a95ddc504a4e99836d972b63231
+      internalID: -2025530500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c867111a52e2a5347b8cbfc2ea2cdb14
+      internalID: 1828533252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_41
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71045f93816744f41a00138e055673e4
+      internalID: 922133742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc00da6e9e5d904c97ee56743fdb5df
+      internalID: -1204068149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd02d8ab6d345b44faeac0ba5516407b
+      internalID: -515583671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8f92354be56d941992845cd8fb734b
+      internalID: 1767209201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 871
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f0e952600253940b30755e8b173a95
+      internalID: -906505530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd483db2aaa96a045ab3a67a58fa97af
+      internalID: -1246998166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8cec40b50a9c43b6267d002d0e775
+      internalID: 1747060402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa0001bf8f097848bdf0dc5c618c7ed
+      internalID: -2128563851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372ad998fc6d77846ad168bb690ba202
+      internalID: 1739480592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25e8d7e8c696c4d92d66811ff8306d
+      internalID: -1061206138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fdc8fe2c22d2146b438d1cff0970b4
+      internalID: -1832537537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_52
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcf07aaefe86874ca961898bdc5fc07
+      internalID: -1756237593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0858ef521da9f46843bfda13210af3
+      internalID: 1493589932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71010dfc9d58f8c4fad7c60cbb69cef5
+      internalID: -2099165926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebcdd241a89c304a86136c6e7abe63f
+      internalID: -2091343949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee3470e76696f4289c215a956eb218
+      internalID: 1880374658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1d4b47a6765aa4dab7abe9fa2ae5ef
+      internalID: 631029534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5390295ad207cef429ed7010fc32dd5a
+      internalID: -57593303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8868dd67dd115488397fad23850af4
+      internalID: -1858655969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 829
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b1d4fe5925fe3458d0a441a258eedd
+      internalID: -74014456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98edbd20c27b71408cf8fff79c55dab
+      internalID: -1142862368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdec56f00c1d2e438311e5b1bd75263
+      internalID: 1527237776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487166fce6cfde45ae8c73239b50e93
+      internalID: 1495090225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d0a6a10008a9148b9caadf63133fdc
+      internalID: 1167338171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c9916ea8b2db742b3b3f34ee3671d3
+      internalID: -352110114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617a41fdd5da4954198872197c5193b1
+      internalID: 1325702201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba190d082cebce4987bae801655dae0
+      internalID: -669251210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9dcf3fbc432664c80db442b6f1bd60
+      internalID: -321560627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e676147168911324eb67a625df9db224
+      internalID: 977358187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac54ad64560f1d49a90fcee06b4d819
+      internalID: -1468339423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716fff9dab47374439f28c90f195aa9b
+      internalID: 451275369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a126bec385a274fb1bd00388cbd811
+      internalID: -757805886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61928ecda12ece54f8c052be10648c3f
+      internalID: -1149794562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bc9e9554e049047af1d98068608f0d
+      internalID: -1537579957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccbc73af0b91e54fa9aaeede3eb491e
+      internalID: 1873469400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1230dfadfcf92f343898aaba5866a604
+      internalID: 277087904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb16014bd637047448e9c0a4b26f2683
+      internalID: -1933091228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012fc66deef53714e92dbac145839693
+      internalID: -1210190836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f2030dccff90e4d8128bd6fc18fea4
+      internalID: 188495584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae34cad3d6aadc949ac364183512f088
+      internalID: -342530767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b88008354d5f9a4e8d74cc9b1c11104
+      internalID: 909303109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3f2598dd6fc414ba7fa1ae1dffe24d
+      internalID: -754812737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db766bed32a14304a845713d01609f0a
+      internalID: 573049608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812e2504e8b1cb54790f0105d5a3a53a
+      internalID: -745269688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1145222c1ecd74cbdb854e0ab3100e
+      internalID: -1914313793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f217b731486a4e4a8616bdbc379d7c8
+      internalID: -2127366823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56727e2d066032644af56f8a61213fcd
+      internalID: -128334269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6946fcc5822a34b81e94e3947ef803
+      internalID: -956692672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60db870adb24a34698735a0641bb5c0
+      internalID: -234052220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a7dc49d22f2b2418eddb20fe320f84
+      internalID: -214725628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 745
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f42b47bb6b14b349bee8e4e87a22a46
+      internalID: 728243837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50156583062f5443bc532375fcf68bb
+      internalID: -1654559962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510bd5bb24513dd4382e4bde677f144f
+      internalID: 542903890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487daf0c516601141bf2ccf7bbdebe14
+      internalID: 357760471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b14049f6a4a554ea0226d38efc7dc7
+      internalID: -1572018657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72382e46d76c73b4e83a72fdbea33cd7
+      internalID: -1303682005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4ef061027c37844b080634de341ca0
+      internalID: -704122812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1741fbfdd0986d46ac40ce7428dfff8
+      internalID: -377197912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319c2e794aa484c4aaaa378156d3551d
+      internalID: -601097956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba9ba2a14c9557469a66cce76f070ae
+      internalID: -1892704745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6edb977607a52d4997c9b9ed1c24caf
+      internalID: -679916376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7303cff3070102c468d9e1d096824c7d
+      internalID: 1068455756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a969ec0742af424d81ea7928f9a3e23
+      internalID: -1245697206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2653dc5ecaef4aa12363b7e77d526
+      internalID: -1043562339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4363800127da35646a3bdad62eea1bd4
+      internalID: 1445448186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1934886bcd1efb040aa389fb9b6fac24
+      internalID: 511795312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_107
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 703
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4a15caf2629e4db7569ea1faa1d37
+      internalID: 250687563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7981d2f5a588648418374044a1334d88
+      internalID: -718344554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0343144cb67ed114b8c499250bf6dfdf
+      internalID: -1319648268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3401b485e6ed484bb621fc644a45440
+      internalID: -1083274863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a1126990f20ff449377c8852c632dd
+      internalID: 246139720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd7d976874d0cf458c9c8b9d4d31a53
+      internalID: -1077684512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_113
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8e0d7920eb8a846a480ad5ac246f74
+      internalID: 236277862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fa80e20f2cf4c49bd6de60810d9e91
+      internalID: 1045748504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c652ff19550c87e438627dfa4916e893
+      internalID: 603623050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6727ca91cac9204a8f6de8a4ab7cd09
+      internalID: 821714889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_117
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd659225740675640be41ee37353b5ff
+      internalID: 765650335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_118
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ac74ffe81a97947abc7fe79e81a31d
+      internalID: 540863701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_119
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90240197634ae724f9d825cc8f9f2fbf
+      internalID: 93667680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_120
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8b3687b565fb418a038d9565e3ffe
+      internalID: -1875700083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_121
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5c4b2a33c73c54a884c9871b8af734
+      internalID: -105289557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_122
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28e24294378bbc48887153f70095f18
+      internalID: -762402196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_123
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 661
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb72632445903549ad27e3930c39632
+      internalID: 1134676257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7ce88fb72056c4db777517a20e7d64
+      internalID: -727933437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3991334ee274de41a582a386b878486
+      internalID: 1281781774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a78687ce43e9740afab05584e45817
+      internalID: -1430214086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8628531ffb0973040b9c438612ccad7e
+      internalID: -535818018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642bf96c3b8b13644b587b6b98889a1b
+      internalID: 1668704832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d01ecbf8e6163e46af7e05a76b7a11d
+      internalID: 1497989398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_130
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0b34e784522394aaee6bee7dc85a86
+      internalID: 1451731818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_131
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942fbaae5eb80440881d04fc6212488
+      internalID: -666585005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef59d9e9b0f505d499dbe72f6eb2a146
+      internalID: 68069942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_133
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cd36ccf8052134e86a5bdc85d9e087
+      internalID: 981354174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_134
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3ed06774bf87b47b18487242493300
+      internalID: -744772771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_135
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999651e978543e741a8891a2754ff6c4
+      internalID: 662959592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ac15b58c9e8dc48bb8aeba65e38636
+      internalID: 2005360345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94872fe8d898a34780ec4af1f36a36a
+      internalID: -936997411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d258298ca3f4b9409356a58ee9ba1c2
+      internalID: 1067769447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_139
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 619
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379c40943bea36a41a8f2be003ab0f25
+      internalID: 706204161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfa40e31b8b07c49ab4d09d8fab6484
+      internalID: 210397669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a647b8fbf64d5c44bc00ec34175879b
+      internalID: -2081560586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2febe74d01c7a5a4f85136b672969297
+      internalID: 2029903070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb7bc00ade56244a07ad06ffb8a6d0
+      internalID: -850754895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93c0586ca018164e871e382f30dd29e
+      internalID: 2053499116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71db9071972d8784082e6d728be85994
+      internalID: 1543809178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389ade59a557556458d45cdd08b0ce1e
+      internalID: 804203052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_147
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a9986074716a04c926a483d0553360
+      internalID: -1735709154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21010f1119f77441b98478bfb374e1a
+      internalID: -1775236143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_149
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed51e5dda94dee94bb9a30ac19480bd3
+      internalID: 1206550970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0210a4208037e4fa2d30e63ee7e35b
+      internalID: 276811525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_151
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b40c6c1cd3a1b8499bc996330baa82f
+      internalID: 1215074643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b472d1dbd919e614d8b3bfd94ba635ef
+      internalID: -381360433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_153
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 577
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd1e691f26536f4c82ddd5b505b4eb3
+      internalID: -2141621848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_154
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef42fc76e3b78f429f90696cd6314ad
+      internalID: 1113647401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a656d1d7e6c17f940a45fc4ad6e2e853
+      internalID: 1171155553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_156
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f951c068237fbe45b859928246ff869
+      internalID: -674029161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_157
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a377557cb973ae04397454e18d342558
+      internalID: 718680406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_158
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4198d14fae56149b2e02e677becd0a
+      internalID: -584757744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_159
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20460169ce60cc142a8d57ec148c0afc
+      internalID: -752113811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_160
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b5b53b9c7fd7a4eac3dc25f2cb623f
+      internalID: 711511444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_161
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 535
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff2a0b6f1a60744b85881a9451a614a
+      internalID: -1053810191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a71451372e0e1140a99e639ac36f0a4
+      internalID: -1832884760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ba15efa70d78345a99837b48240eb4
+      internalID: 1154493598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_164
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf2d6e77b4d4a46b5d6fd76e43754e
+      internalID: 2069246063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_165
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a117bfc51935b5a4193442dcff6e8499
+      internalID: 1551173249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_166
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab205070a73e074397ce539a585be14
+      internalID: -1481350611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_167
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a192ee9ba180a1e4a92189cd3291c3b4
+      internalID: 1656606377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ed0a40da11eb244b75f0a1e9051ccd
+      internalID: -1889158466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_169
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 493
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd51740a62e29e24b893664df294b99c
+      internalID: 1887523357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_170
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5291266fb4fdd1046b4a92096cbae39d
+      internalID: 2036698178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82107509a017c114f81c2b5b0ea9ce33
+      internalID: -1015115279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_172
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442e833142e4f7644a9a7e46b6e31756
+      internalID: 1281862991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_173
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc02a4d64eb2e43ac4e1d15c04b04e
+      internalID: 1105651350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_174
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b0b4c9ae9ddf438f71466441ced63
+      internalID: 2141254786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_175
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baa6005940fda54fb6f30eeabfbfb79
+      internalID: 688029224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_176
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed9e22f8be4c164f8ea6e57ae6b950d
+      internalID: 17786618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_177
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 451
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4929bd00e74e5498e12b6f84b89890
+      internalID: -385048130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32cd03c4fa62e049a2d2cdf87c68aa2
+      internalID: -890227745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c117a95e48e37f479a3957fbc8223f4
+      internalID: -1825050322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_180
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998c409ecb5105c4984e726f18090b46
+      internalID: -668293059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_181
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3ab7b779c6bf4eb61b9a28b8fba61
+      internalID: 1243101915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_182
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33a357e0b647724bbda2c08ad607323
+      internalID: 213332108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_183
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfa4b7425d46c041b60c7cfccd7d324
+      internalID: -1660278705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_184
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475ecdce8a959ae46a1369579ec95db3
+      internalID: 105463003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_185
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 409
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fccd28f8d94a1946ab4682b3ab71542
+      internalID: 1189440525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ce172ae508ec046811481fd28b333b
+      internalID: 1187613408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed7e685d5dc12b408323adb10bd14d4
+      internalID: -361699838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e61857418f8924fa4a0808afea3467
+      internalID: -1328319576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fd65ce9be59b047bdfda56d3c3565a
+      internalID: -201618511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d8ec5ecd974ac49abaae8b04db703a
+      internalID: 1703302044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_191
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3450884cde519a458e2888b93d984b1
+      internalID: 2028801165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af089824cdfc6c74fa745639d8a63c2d
+      internalID: -1293332504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_193
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068bc2a1e712f514c964b0c23ab63daf
+      internalID: 1016384881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_194
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3f8cf97917fe64a892451e7ce90a74
+      internalID: -1883571733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_195
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d694e0ddd84c0d4d91aac638240182b
+      internalID: 1971570404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_196
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0785230c7faec67499c570fc84de30d8
+      internalID: 2120122322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_197
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0034780f3d98c4f4aab78d521ab51af2
+      internalID: 1271282392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_198
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 367
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9c77e441177a446989834ea4ceb9ba
+      internalID: 1965007811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0277fdd1867e4e84199216ebb3b70580
+      internalID: 2080444894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_200
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613716203459caf4cacf6e1fa6f2ed81
+      internalID: -462702469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684fc5c1913642445ad49ce52c50e6e1
+      internalID: 147655348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5827de2b28d05458bf399c6ecbe9fd
+      internalID: 1687562763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_203
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d58fe6e9f4ebf4482ec9b76e0fbfe0
+      internalID: -1070163662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_204
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f817a8a96841c4d9cf6e549e8227a8
+      internalID: -1236934122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_205
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9cfe38442832545ad993d29439cec8
+      internalID: 630501068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d426b11f7d01e3f43834451fb1ed5c4a
+      internalID: -264300678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ac18db629dc0f4ea8f4c9522b169db
+      internalID: -2050114523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_208
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e22c8a92d926e4586a0b834c869733
+      internalID: -1401255322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_209
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cd5531a932254449061a55204332c1
+      internalID: -1113573865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_210
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32a15c056ad19042846724767e05980
+      internalID: 1014975462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_211
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e371c86ee40484493be9737fbbeaa6
+      internalID: -1687179957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_212
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 325
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2b646ae1ce9b646b80cd3f36515e70
+      internalID: 850482292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d864f7709113740880ddf475a018fe
+      internalID: 1946043334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_214
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3580a592af054bb6f8aa1d87f226f
+      internalID: -1103488988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_215
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723f3e822a149e94e8d0fb6724935b87
+      internalID: -466639539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_216
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ff3fd842b442d469a7a3ba551970d9
+      internalID: -76932559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_217
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec45539c95355f45a41e604376924aa
+      internalID: -1990776903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_218
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4ec64ce6587874bbc13a44ccb90bd3
+      internalID: -721127843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_219
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5cde5626f2c7142812ef3f343a5740
+      internalID: 375299239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_220
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89089f1b92cfab46b72eccab6bc5b02
+      internalID: -1890766489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_221
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c22f2e0d3fbff42a9ce17af93618df
+      internalID: -1582290697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_222
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e725722050526b4d964b52676d5bd7d
+      internalID: 1293913350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_223
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e1a10226629914f98363b48aebb834
+      internalID: 1488793193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_224
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34ae761daad9264ea6969100a4017f7
+      internalID: -881953139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_225
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 283
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67bbcaa49bd2da4da490d01353ae91e
+      internalID: 1258251193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_226
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245ef5479b85cde4d9c7a8b492fa7fbe
+      internalID: -1238245637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_227
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d5a173e08f6e3449e1cf45a1e1e08d
+      internalID: 406175035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_228
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3899e56c3a071843a4a0b0f72d59b53
+      internalID: 2014327056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_229
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46991569bba3ee54797d7dba2d8f37c1
+      internalID: -2011365194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_230
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8dd44d67ebb434a8d0d26f0162e406
+      internalID: 959327999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_231
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32ccb1c91128674e9ce2188ffb73f3a
+      internalID: -488989630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_232
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985d55a33126bdb43a63be226a080f81
+      internalID: -22536945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_233
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b41016e687ea1c4f9c75ceede335584
+      internalID: -1892314776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_234
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb80f1cc5102e841b9a2ead5a9097fd
+      internalID: -119294680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_235
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66734b18bdccbfb4f880fc454a37452e
+      internalID: 1635579074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_236
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec31fd88b4e29429e9293fa3c95e26
+      internalID: 2094696812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_237
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600515d7346b5be4d93b8edb244a57d7
+      internalID: 1024307046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_238
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fa5b1c0f7ba5f458092bd33f53f4cb
+      internalID: -382592745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_239
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 241
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7df8652d77e9e48a6aa5334e95aec4
+      internalID: -119193447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f1f20976cbe47419fe361ee55e52e2
+      internalID: 1191544597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d007c1297b6cadb4c94d8a30c528acf4
+      internalID: -1938747506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7fbbf6618c8cd4a86f0932a75218fa
+      internalID: 625680202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_243
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38c105a391aa0498466822f0bfe2c8
+      internalID: -2061267214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dc027cb28603c459f390045e7896d7
+      internalID: -1974063652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce334ea7dcee9e3428e34e4316fd695c
+      internalID: 1441752210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_246
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fec69fa35e27d14e9159ed1b5281e47
+      internalID: -277464252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_247
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64630245f6aca74fa698b16683495ed
+      internalID: 1877424434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_248
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb02d3d547e3ee4b822b9b2dc7c3fc5
+      internalID: 794409402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_249
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d1ec49366c6f14e9669e842c99aad3
+      internalID: -924181459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_250
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f2ae1dd69702240b447e9ff83353fb
+      internalID: -2142403718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_251
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437d433b40abe243817bab49a44336e
+      internalID: 678171596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_252
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77862dbab4026e140bf61f20569a1b64
+      internalID: 164803285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_253
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1ea1a425ff3048b848ce2d33f0f53
+      internalID: -86252543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_254
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac39ec1084a1c1d4daada7c52c50effa
+      internalID: -375082463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_255
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 199
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceb6716b9fe9084eade98d4851b3c61
+      internalID: 1187705705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cea55f67707334988b6c9e70d67be7
+      internalID: -2098808808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_257
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba30d6c17ce1c54d87416e1d11c15d8
+      internalID: -65330253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_258
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d648e32e69b16941be4e514d2d9f30c
+      internalID: -1754739770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_259
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99c1a15f719a49499c4b69ede73219e
+      internalID: 1065165900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_260
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42cb3c68311efd49a9621e62eed1e9d
+      internalID: 884909117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_261
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d152f9e3b5f85d40b79083a38d32c58
+      internalID: 2061417525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_262
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e2fb06d9ecb1f43a9eca73996c2c82
+      internalID: -1090293643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_263
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1c0a133116efa48a4886b99b3f9786
+      internalID: 1494921858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_264
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e332a39184ec81b46888fdb7acfffc4c
+      internalID: 1695865882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_265
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6299cd88079ebd44a991099965e5afbc
+      internalID: 1148693946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_266
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fbe01cc828aee408f849db2495f576
+      internalID: 1329931881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_267
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a68519ce2aa8a74fa18fd9ae2fc2921
+      internalID: -1898107805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_268
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff8951651da76545b4d9b417a29495b
+      internalID: 1596623203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_269
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5f67f37d62a30459161d22dcf6d2cf
+      internalID: -1080772801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_270
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af72f76b970d9446ac9631a31049a05
+      internalID: 7898781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_271
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 157
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31502251a47bdce41abc859fd29da159
+      internalID: 1428240373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_272
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7826aad2120a431468e5f33550032b94
+      internalID: -2108862175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_273
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ee1a47178e00045a8db4bdb3189d38
+      internalID: -2067731532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_274
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be5ec5be2f9f5f4996526ec534d97a8
+      internalID: -1269941141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_275
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4e1b0c64b391b48b59f16a4a7e0747
+      internalID: 299333260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_276
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b141a52b3eaf33e4c8e29e2da3228075
+      internalID: 1091786426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_277
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3437db938163f9e4b8241fa8e67a2b04
+      internalID: -2112824586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_278
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f6c3faae61235438af9ca330376fde
+      internalID: 2141901886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_279
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344dafe35485c354a947fba010a72df1
+      internalID: 2792481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_280
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a0341636354694ea05c0522f1af448
+      internalID: -1420096289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_281
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fc19225e576594b88072739ec9e7a0
+      internalID: 1332901690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_282
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29ea7b1d4d29146bea06cb11ae1747
+      internalID: -557575969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_283
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763036145aee4224d88306eec693684a
+      internalID: 492732003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_284
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81f432ec497d334b92af77e648dedb2
+      internalID: 304074302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_285
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d32bd98eb31968439a08b024d5f7b77
+      internalID: 589327780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_286
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f9bff07bafb8546a88a2d0045c4980
+      internalID: 121276201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_287
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 115
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2979f74ee15d2ab409abc4de00d26107
+      internalID: -1416610332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3051ec103b90040b46d2c4cc4c2aee
+      internalID: -340245346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_289
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e54acb93d3f5504db82c859b4a97e5f
+      internalID: 1872489492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_290
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2f8fc8135d1294fa063428a9cee9c3
+      internalID: 319829200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_291
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3838440b89616794cb0f0075e8754f4e
+      internalID: 1951788621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_292
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb72a2d6789b0d4db76fe62a2f2d5bd
+      internalID: -1328644200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_293
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050dace274758e141b9adee2b929c0c4
+      internalID: -891374327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_294
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae02a772eee364c94c480812d27c10
+      internalID: 181725447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_295
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ee8d00d197adf46a43486ee3041b45
+      internalID: 1265465498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_296
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5060a8c23ab566d4f863954bbb22c4e0
+      internalID: 453072586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_297
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70666721ddf4d1744b78ca7247acdd4e
+      internalID: -617729850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_298
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f018f51c58ff7d40b8c3c1aa56e689b
+      internalID: 519717609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_299
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82183fe5685745c458c33391188dc4a8
+      internalID: 507831062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_300
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f78e4adb1ecf44a83c097220f523c2
+      internalID: 1401308063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_301
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a1356aaf8784c4e88146f7c74cfd3c
+      internalID: 969882232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_302
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d77d5dfafb1c4db3d9a2ad7f5ac13
+      internalID: 656962452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_303
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 73
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bf4f1fbad0fa04cbadabf58702a0d1
+      internalID: 861887886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_304
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a46689b108724883db81ce3903315
+      internalID: -916618035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_305
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aa16c6099b96840a4c107cb34433e2
+      internalID: -1673127889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_306
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2879fb5c1fb47d4bbe2d3105b4d6709
+      internalID: 1899055052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_307
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3e6a3ad8e04fc46935d1de7499246e
+      internalID: -1460809795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_308
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7dfa152f04d5446b7d45f37b41afbc
+      internalID: 808520409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_309
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed53fb64c41b3a4a83943c0a0af6d1e
+      internalID: 1443029751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_310
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d3c843c5a9da04083e98cbd9b34e2c
+      internalID: -1963519497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_311
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6256c2e9c0ab84490b94a66dbbbdd1
+      internalID: -680727165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_312
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93abe8a0a249bf42a495b2152a0d640
+      internalID: 170170745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_313
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59b32f3abda9914ebb3e311280adca4
+      internalID: 1753601724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_314
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9246a229eaafe489c309a2f89ca535
+      internalID: 2143568638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_315
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b07c82c8750df46ba3bd26915ff792
+      internalID: 672984132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_316
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d78d6ca90d6f7409612aaaa9b590b9
+      internalID: -1570554066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_317
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9206fee2c4db447b113f84ad252205
+      internalID: -1474430288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_318
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1949e733c68d24f91b4360f8364f0b
+      internalID: -437988438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TowerTiles2_319
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 31
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf14739ef6769e84781e72ec1e1ac18e
+      internalID: 627544481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TowerTiles2_0: 1332955945
+      TowerTiles2_1: -1623550300
+      TowerTiles2_10: 391483341
+      TowerTiles2_100: -1892704745
+      TowerTiles2_101: -679916376
+      TowerTiles2_102: 1068455756
+      TowerTiles2_103: -1245697206
+      TowerTiles2_104: -1043562339
+      TowerTiles2_105: 1445448186
+      TowerTiles2_106: 511795312
+      TowerTiles2_107: 250687563
+      TowerTiles2_108: -718344554
+      TowerTiles2_109: -1319648268
+      TowerTiles2_11: 698060871
+      TowerTiles2_110: -1083274863
+      TowerTiles2_111: 246139720
+      TowerTiles2_112: -1077684512
+      TowerTiles2_113: 236277862
+      TowerTiles2_114: 1045748504
+      TowerTiles2_115: 603623050
+      TowerTiles2_116: 821714889
+      TowerTiles2_117: 765650335
+      TowerTiles2_118: 540863701
+      TowerTiles2_119: 93667680
+      TowerTiles2_12: -1146346666
+      TowerTiles2_120: -1875700083
+      TowerTiles2_121: -105289557
+      TowerTiles2_122: -762402196
+      TowerTiles2_123: 1134676257
+      TowerTiles2_124: -727933437
+      TowerTiles2_125: 1281781774
+      TowerTiles2_126: -1430214086
+      TowerTiles2_127: -535818018
+      TowerTiles2_128: 1668704832
+      TowerTiles2_129: 1497989398
+      TowerTiles2_13: -1275440563
+      TowerTiles2_130: 1451731818
+      TowerTiles2_131: -666585005
+      TowerTiles2_132: 68069942
+      TowerTiles2_133: 981354174
+      TowerTiles2_134: -744772771
+      TowerTiles2_135: 662959592
+      TowerTiles2_136: 2005360345
+      TowerTiles2_137: -936997411
+      TowerTiles2_138: 1067769447
+      TowerTiles2_139: 706204161
+      TowerTiles2_14: 1486172290
+      TowerTiles2_140: 210397669
+      TowerTiles2_141: -2081560586
+      TowerTiles2_142: 2029903070
+      TowerTiles2_143: -850754895
+      TowerTiles2_144: 2053499116
+      TowerTiles2_145: 1543809178
+      TowerTiles2_146: 804203052
+      TowerTiles2_147: -1735709154
+      TowerTiles2_148: -1775236143
+      TowerTiles2_149: 1206550970
+      TowerTiles2_15: 1203587021
+      TowerTiles2_150: 276811525
+      TowerTiles2_151: 1215074643
+      TowerTiles2_152: -381360433
+      TowerTiles2_153: -2141621848
+      TowerTiles2_154: 1113647401
+      TowerTiles2_155: 1171155553
+      TowerTiles2_156: -674029161
+      TowerTiles2_157: 718680406
+      TowerTiles2_158: -584757744
+      TowerTiles2_159: -752113811
+      TowerTiles2_16: 594127180
+      TowerTiles2_160: 711511444
+      TowerTiles2_161: -1053810191
+      TowerTiles2_162: -1832884760
+      TowerTiles2_163: 1154493598
+      TowerTiles2_164: 2069246063
+      TowerTiles2_165: 1551173249
+      TowerTiles2_166: -1481350611
+      TowerTiles2_167: 1656606377
+      TowerTiles2_168: -1889158466
+      TowerTiles2_169: 1887523357
+      TowerTiles2_17: -1285468574
+      TowerTiles2_170: 2036698178
+      TowerTiles2_171: -1015115279
+      TowerTiles2_172: 1281862991
+      TowerTiles2_173: 1105651350
+      TowerTiles2_174: 2141254786
+      TowerTiles2_175: 688029224
+      TowerTiles2_176: 17786618
+      TowerTiles2_177: -385048130
+      TowerTiles2_178: -890227745
+      TowerTiles2_179: -1825050322
+      TowerTiles2_18: -1348403932
+      TowerTiles2_180: -668293059
+      TowerTiles2_181: 1243101915
+      TowerTiles2_182: 213332108
+      TowerTiles2_183: -1660278705
+      TowerTiles2_184: 105463003
+      TowerTiles2_185: 1189440525
+      TowerTiles2_186: 1187613408
+      TowerTiles2_187: -361699838
+      TowerTiles2_188: -1328319576
+      TowerTiles2_189: -201618511
+      TowerTiles2_19: -1036267714
+      TowerTiles2_190: 1703302044
+      TowerTiles2_191: 2028801165
+      TowerTiles2_192: -1293332504
+      TowerTiles2_193: 1016384881
+      TowerTiles2_194: -1883571733
+      TowerTiles2_195: 1971570404
+      TowerTiles2_196: 2120122322
+      TowerTiles2_197: 1271282392
+      TowerTiles2_198: 1965007811
+      TowerTiles2_199: 2080444894
+      TowerTiles2_2: -1647784478
+      TowerTiles2_20: -1802957904
+      TowerTiles2_200: -462702469
+      TowerTiles2_201: 147655348
+      TowerTiles2_202: 1687562763
+      TowerTiles2_203: -1070163662
+      TowerTiles2_204: -1236934122
+      TowerTiles2_205: 630501068
+      TowerTiles2_206: -264300678
+      TowerTiles2_207: -2050114523
+      TowerTiles2_208: -1401255322
+      TowerTiles2_209: -1113573865
+      TowerTiles2_21: 84445590
+      TowerTiles2_210: 1014975462
+      TowerTiles2_211: -1687179957
+      TowerTiles2_212: 850482292
+      TowerTiles2_213: 1946043334
+      TowerTiles2_214: -1103488988
+      TowerTiles2_215: -466639539
+      TowerTiles2_216: -76932559
+      TowerTiles2_217: -1990776903
+      TowerTiles2_218: -721127843
+      TowerTiles2_219: 375299239
+      TowerTiles2_22: -262231437
+      TowerTiles2_220: -1890766489
+      TowerTiles2_221: -1582290697
+      TowerTiles2_222: 1293913350
+      TowerTiles2_223: 1488793193
+      TowerTiles2_224: -881953139
+      TowerTiles2_225: 1258251193
+      TowerTiles2_226: -1238245637
+      TowerTiles2_227: 406175035
+      TowerTiles2_228: 2014327056
+      TowerTiles2_229: -2011365194
+      TowerTiles2_23: -1597230112
+      TowerTiles2_230: 959327999
+      TowerTiles2_231: -488989630
+      TowerTiles2_232: -22536945
+      TowerTiles2_233: -1892314776
+      TowerTiles2_234: -119294680
+      TowerTiles2_235: 1635579074
+      TowerTiles2_236: 2094696812
+      TowerTiles2_237: 1024307046
+      TowerTiles2_238: -382592745
+      TowerTiles2_239: -119193447
+      TowerTiles2_24: 322772812
+      TowerTiles2_240: 1191544597
+      TowerTiles2_241: -1938747506
+      TowerTiles2_242: 625680202
+      TowerTiles2_243: -2061267214
+      TowerTiles2_244: -1974063652
+      TowerTiles2_245: 1441752210
+      TowerTiles2_246: -277464252
+      TowerTiles2_247: 1877424434
+      TowerTiles2_248: 794409402
+      TowerTiles2_249: -924181459
+      TowerTiles2_25: 510406788
+      TowerTiles2_250: -2142403718
+      TowerTiles2_251: 678171596
+      TowerTiles2_252: 164803285
+      TowerTiles2_253: -86252543
+      TowerTiles2_254: -375082463
+      TowerTiles2_255: 1187705705
+      TowerTiles2_256: -2098808808
+      TowerTiles2_257: -65330253
+      TowerTiles2_258: -1754739770
+      TowerTiles2_259: 1065165900
+      TowerTiles2_26: -510662593
+      TowerTiles2_260: 884909117
+      TowerTiles2_261: 2061417525
+      TowerTiles2_262: -1090293643
+      TowerTiles2_263: 1494921858
+      TowerTiles2_264: 1695865882
+      TowerTiles2_265: 1148693946
+      TowerTiles2_266: 1329931881
+      TowerTiles2_267: -1898107805
+      TowerTiles2_268: 1596623203
+      TowerTiles2_269: -1080772801
+      TowerTiles2_27: 423153984
+      TowerTiles2_270: 7898781
+      TowerTiles2_271: 1428240373
+      TowerTiles2_272: -2108862175
+      TowerTiles2_273: -2067731532
+      TowerTiles2_274: -1269941141
+      TowerTiles2_275: 299333260
+      TowerTiles2_276: 1091786426
+      TowerTiles2_277: -2112824586
+      TowerTiles2_278: 2141901886
+      TowerTiles2_279: 2792481
+      TowerTiles2_28: -86111014
+      TowerTiles2_280: -1420096289
+      TowerTiles2_281: 1332901690
+      TowerTiles2_282: -557575969
+      TowerTiles2_283: 492732003
+      TowerTiles2_284: 304074302
+      TowerTiles2_285: 589327780
+      TowerTiles2_286: 121276201
+      TowerTiles2_287: -1416610332
+      TowerTiles2_288: -340245346
+      TowerTiles2_289: 1872489492
+      TowerTiles2_29: -650004727
+      TowerTiles2_290: 319829200
+      TowerTiles2_291: 1951788621
+      TowerTiles2_292: -1328644200
+      TowerTiles2_293: -891374327
+      TowerTiles2_294: 181725447
+      TowerTiles2_295: 1265465498
+      TowerTiles2_296: 453072586
+      TowerTiles2_297: -617729850
+      TowerTiles2_298: 519717609
+      TowerTiles2_299: 507831062
+      TowerTiles2_3: -1249944981
+      TowerTiles2_30: -1555158601
+      TowerTiles2_300: 1401308063
+      TowerTiles2_301: 969882232
+      TowerTiles2_302: 656962452
+      TowerTiles2_303: 861887886
+      TowerTiles2_304: -916618035
+      TowerTiles2_305: -1673127889
+      TowerTiles2_306: 1899055052
+      TowerTiles2_307: -1460809795
+      TowerTiles2_308: 808520409
+      TowerTiles2_309: 1443029751
+      TowerTiles2_31: 2099710480
+      TowerTiles2_310: -1963519497
+      TowerTiles2_311: -680727165
+      TowerTiles2_312: 170170745
+      TowerTiles2_313: 1753601724
+      TowerTiles2_314: 2143568638
+      TowerTiles2_315: 672984132
+      TowerTiles2_316: -1570554066
+      TowerTiles2_317: -1474430288
+      TowerTiles2_318: -437988438
+      TowerTiles2_319: 627544481
+      TowerTiles2_32: 1257420469
+      TowerTiles2_33: -477533568
+      TowerTiles2_34: 1253328810
+      TowerTiles2_35: 341162611
+      TowerTiles2_36: -893474454
+      TowerTiles2_37: 1246529338
+      TowerTiles2_38: -1300073967
+      TowerTiles2_39: -2025530500
+      TowerTiles2_4: 975679565
+      TowerTiles2_40: 1828533252
+      TowerTiles2_41: 922133742
+      TowerTiles2_42: -1204068149
+      TowerTiles2_43: -515583671
+      TowerTiles2_44: 1767209201
+      TowerTiles2_45: -906505530
+      TowerTiles2_46: -1246998166
+      TowerTiles2_47: 1747060402
+      TowerTiles2_48: -2128563851
+      TowerTiles2_49: 1739480592
+      TowerTiles2_5: 1867619660
+      TowerTiles2_50: -1061206138
+      TowerTiles2_51: -1832537537
+      TowerTiles2_52: -1756237593
+      TowerTiles2_53: 1493589932
+      TowerTiles2_54: -2099165926
+      TowerTiles2_55: -2091343949
+      TowerTiles2_56: 1880374658
+      TowerTiles2_57: 631029534
+      TowerTiles2_58: -57593303
+      TowerTiles2_59: -1858655969
+      TowerTiles2_6: 522179222
+      TowerTiles2_60: -74014456
+      TowerTiles2_61: -1142862368
+      TowerTiles2_62: 1527237776
+      TowerTiles2_63: 1495090225
+      TowerTiles2_64: 1167338171
+      TowerTiles2_65: -352110114
+      TowerTiles2_66: 1325702201
+      TowerTiles2_67: -669251210
+      TowerTiles2_68: -321560627
+      TowerTiles2_69: 977358187
+      TowerTiles2_7: -213176797
+      TowerTiles2_70: -1468339423
+      TowerTiles2_71: 451275369
+      TowerTiles2_72: -757805886
+      TowerTiles2_73: -1149794562
+      TowerTiles2_74: -1537579957
+      TowerTiles2_75: 1873469400
+      TowerTiles2_76: 277087904
+      TowerTiles2_77: -1933091228
+      TowerTiles2_78: -1210190836
+      TowerTiles2_79: 188495584
+      TowerTiles2_8: 1762743023
+      TowerTiles2_80: -342530767
+      TowerTiles2_81: 909303109
+      TowerTiles2_82: -754812737
+      TowerTiles2_83: 573049608
+      TowerTiles2_84: -745269688
+      TowerTiles2_85: -1914313793
+      TowerTiles2_86: -2127366823
+      TowerTiles2_87: -128334269
+      TowerTiles2_88: -956692672
+      TowerTiles2_89: -234052220
+      TowerTiles2_9: 2038564289
+      TowerTiles2_90: -214725628
+      TowerTiles2_91: 728243837
+      TowerTiles2_92: -1654559962
+      TowerTiles2_93: 542903890
+      TowerTiles2_94: 357760471
+      TowerTiles2_95: -1572018657
+      TowerTiles2_96: -1303682005
+      TowerTiles2_97: -704122812
+      TowerTiles2_98: -377197912
+      TowerTiles2_99: -601097956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

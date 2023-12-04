@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CityCutscene.unity
     guid: 6a90b3af5a1958c47b1e3aa4e855a801
+  - enabled: 1
+    path: Assets/Scenes/StreetsPuzzle2.unity
+    guid: f8f8d1ed09462d74fb315b659d50ae9a
   m_configObjects: {}
