@@ -12,6 +12,7 @@ public class GunRotator : MonoBehaviour
 
     private bool isPressed;
     private GameObject lastCollided;
+    private float rotationCoefficient = 0.20f;
 
     // Start is called before the first frame update
     void Start()
@@ -69,7 +70,7 @@ public class GunRotator : MonoBehaviour
         Quaternion currentRotation = laserGun.transform.rotation;
 
         // Modify the "Z" value
-        float newZRotation = 0.25f; // Set your desired Z rotation value here
+        float newZRotation = rotationCoefficient; // Set your desired Z rotation value here
 
         // Rotate negative direction if clockwise is true
         if(clockWise)
