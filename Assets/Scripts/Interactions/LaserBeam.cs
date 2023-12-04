@@ -8,15 +8,17 @@ public class LaserBeam
     Vector2 pos, dir;
     
     GameObject laserObj;
+    GameObject receptacle;
 
     // Visual reprentation of laser
     LineRenderer laser;
     List<Vector2> laserIndices = new List<Vector2>();
-    public LaserBeam(Vector2 pos, Vector2 dir, Material material)
+    public LaserBeam(Vector2 pos, Vector2 dir, Material material, GameObject receptacle, string laserBeamName, Color laserColor)
     {
         this.laser = new LineRenderer();
         this.laserObj = new GameObject();
-        this.laserObj.name = "Laser Beam";
+        this.laserObj.name = laserBeamName;
+        this.receptacle = receptacle;
         this.pos = pos;
         this.dir = dir;
 
@@ -24,8 +26,8 @@ public class LaserBeam
         this.laser.startWidth = laserThickness;
         this.laser.endWidth = laserThickness;
         this.laser.material = material;
-        this.laser.startColor = Color.green;
-        this.laser.endColor = Color.green;
+        this.laser.startColor = laserColor;
+        this.laser.endColor = laserColor;
 
         CastRay(pos, dir, laser);
     }
@@ -63,7 +65,6 @@ public class LaserBeam
     {
         if(hit.collider.gameObject.tag == "Mirror")
         {
-            Debug.Log("HIT A MIRROR!");
             Vector2 pos = hit.point;
             Vector2 dir = Vector2.Reflect(direction, hit.normal);
 
@@ -72,8 +73,16 @@ public class LaserBeam
 
         else
         {
+            // Check if laser hit receptable
+            if(hit.collider.gameObject == receptacle)
+            {
+                Debug.Log(Color.green);
+                Debug.Log("HIT RECEPTACLE!");
+            }
+
             laserIndices.Add(hit.point);
             UpdateLaser();
+
         }
     }
 }

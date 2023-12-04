@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Block
   - Mirror
+  - Receptacle
   layers:
   - Default
   - TransparentFX
