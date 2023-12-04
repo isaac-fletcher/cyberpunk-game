@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerInputManager : MonoBehaviour
 {
@@ -104,13 +105,15 @@ public class PlayerInputManager : MonoBehaviour
 
         if (p1Input.actions["Cybernetic"].triggered && p1HasCyber)
         {
-            levelCybernetic.GetComponent<ElectricityCybernetic>().Activate(p1, p1rb.position, (p2rb.position - p1rb.position) / 100);
+            levelCybernetic.GetComponent<ElectricityCybernetic>().Activate(p1, p1rb.position, p2rb.position - p1rb.position);
             p1HasCyber = false;
+            GameObject.Find("Player1").GetComponent<Light2D>().color = Color.white;
         }
         if (p2Input.actions["Cybernetic"].triggered && p2HasCyber)
         {
-            levelCybernetic.GetComponent<ElectricityCybernetic>().Activate(p2, p2rb.position, (p1rb.position - p2rb.position) / 100);
+            levelCybernetic.GetComponent<ElectricityCybernetic>().Activate(p2, p2rb.position, p1rb.position - p2rb.position);
             p2HasCyber = false;
+            GameObject.Find("Player2").GetComponent<Light2D>().color = Color.white;
         }
     }
 
@@ -203,5 +206,6 @@ public class PlayerInputManager : MonoBehaviour
         {
             p2HasCyber = true;
         }
+        p.GetComponent<Light2D>().color = Color.yellow;
     }
 }

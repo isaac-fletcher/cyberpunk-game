@@ -5,7 +5,7 @@ using UnityEngine.Rendering.Universal;
 
 public class ElectricityCybernetic : MonoBehaviour
 {
-    const float MOVE_SPEED = 30;
+    const float MOVE_SPEED = 1.8f;
 
     Vector2 startpos;
     Vector2 pos;
@@ -27,16 +27,15 @@ public class ElectricityCybernetic : MonoBehaviour
 
     void FixedUpdate()
     {
-        //CastRay(pos, dir);
-
-        rb.MovePosition(pos + dir);
-        pos += dir;
+        rb.MovePosition(pos + dir * MOVE_SPEED * Time.fixedDeltaTime);
+        pos += dir * MOVE_SPEED * Time.fixedDeltaTime;
     }
 
     public void Activate(GameObject origin, Vector2 p, Vector2 d)
     {
         pos = p;
         dir = d;
+        dir.Normalize();
         thrower = origin;
 
         GetComponent<Light2D>().enabled = true;
@@ -48,75 +47,23 @@ public class ElectricityCybernetic : MonoBehaviour
     {
         if(c.gameObject.tag == "Receiver")
         {
-            Debug.Log("Received");
             c.gameObject.GetComponent<Receiver>().OnPowered();
         }
         else if (c.gameObject.tag == "Player" && c.gameObject.name != thrower.name)
         {
-            Debug.Log("Thrower " + thrower);
-            Debug.Log("Collided with " + c.gameObject);
-            Debug.Log("Retrieved by other player");
             var p = GameObject.Find("InputManager").GetComponent<PlayerInputManager>();
             p.MakeCyberneticActive(c.gameObject);
             Reset();
         }
         else if (c.gameObject.tag == "Insulator")
         {
-            Debug.Log("Absorbed");
             Reset();
         }
-        else if (c.gameObject.name == "Wall" || c.gameObject.tag == "Door")
+        else if (c.gameObject.name == "Wall" || c.gameObject.tag == "Door" || c.gameObject.tag == "Block")
         {
-            Debug.Log("Died to wall");
             Reset();
-        }
-        else
-        {
-            Debug.Log("What?");
         }
     }
-
-    /*
-    private void CastRay(Vector2 pos, Vector2 dir)
-    {
-        RaycastHit2D hit = Physics2D.Raycast(pos, dir, MOVE_SPEED);
-
-        if(hit.collider != null)
-        {
-            CheckHit(hit, dir);
-        }
-    }
-
-    private void CheckHit(RaycastHit2D hit, Vector2 direction)
-    {
-        if(hit.collider.gameObject.tag == "Receiver")
-        {
-            Debug.Log("Received");
-        }
-        else if (hit.collider.gameObject.tag == "Player" && hit.collider.gameObject != thrower)
-        {
-            Debug.Log(thrower);
-            Debug.Log(hit.collider.gameObject);
-            Debug.Log("Retrieved by other player");
-            var p = GameObject.Find("InputManager").GetComponent<PlayerInputManager>();
-            p.MakeCyberneticActive(hit.collider.gameObject);
-            Reset();
-        }
-        else if (hit.collider.gameObject.tag == "Insulator")
-        {
-            Debug.Log("Absorbed");
-            Reset();
-        }
-        else if (hit.collider.gameObject.name == "Wall")
-        {
-            Debug.Log("Died to wall");
-            Reset();
-        }
-        else
-        {
-            Debug.Log("What?");
-        }
-    }*/
 
     private void Reset()
     {
