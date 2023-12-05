@@ -2372,7 +2372,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.8
-  m_Color: {r: 1, g: 0.5851397, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.28627452, b: 0, a: 1}
   m_Intensity: 10
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -2682,7 +2682,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.5019608, b: 0, a: 1}
   m_Origin: {x: -2, y: -3, z: 0}
   m_Size: {x: 2, y: 3, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -5912,10 +5912,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.06666667
-    width: 1
-    height: 0.86709183
+    x: 0.025663717
+    y: 0
+    width: 0.94867253
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -6552,11 +6552,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744788836382611316, guid: 62438beafcad0c94899ae3fe24c8238c, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.69946384
       objectReference: {fileID: 0}
     - target: {fileID: 1744788836382611316, guid: 62438beafcad0c94899ae3fe24c8238c, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.5235849
       objectReference: {fileID: 0}
     - target: {fileID: 5001308726138576831, guid: 62438beafcad0c94899ae3fe24c8238c, type: 3}
       propertyPath: m_Name
@@ -6684,7 +6684,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.8
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.11764706, g: 0.4862745, b: 1, a: 1}
   m_Intensity: 10
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -7417,11 +7417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993018611950093682, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.809661
       objectReference: {fileID: 0}
     - target: {fileID: 993018611950093682, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.7122642
       objectReference: {fileID: 0}
     - target: {fileID: 1617725200869705245, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7477,11 +7477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3970157631567543883, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: laserColor.g
-      value: 1
+      value: 0.48729345
       objectReference: {fileID: 0}
     - target: {fileID: 3970157631567543883, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: laserColor.r
-      value: 1
+      value: 0.11792451
       objectReference: {fileID: 0}
     - target: {fileID: 3970157631567543883, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: laserBeamName
@@ -7760,7 +7760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3970157631567543883, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: laserColor.g
-      value: 0.38202363
+      value: 0.21692783
       objectReference: {fileID: 0}
     - target: {fileID: 3970157631567543883, guid: 5e18cd29f22b6a64ca1df086450e5459, type: 3}
       propertyPath: laserColor.r
@@ -7832,7 +7832,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.11764706, g: 0.4862745, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -8490,7 +8490,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.5019608, b: 0, a: 1}
   m_Origin: {x: -2, y: -3, z: 0}
   m_Size: {x: 2, y: 3, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -8565,7 +8565,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.8
-  m_Color: {r: 0.77454853, g: 0, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.49019608, a: 1}
   m_Intensity: 10
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
