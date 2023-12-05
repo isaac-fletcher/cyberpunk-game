@@ -26,61 +26,6 @@
             ],
             "bindings": [
                 {
-                    "name": "Arrows",
-                    "id": "5bffd5e3-3008-4da0-8156-6d5cbeda5fe9",
-                    "path": "Dpad",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "353e2765-050f-47fe-994e-d609b62ec0b0",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "b9bb783e-0bc2-483d-a677-4fe3a1f75628",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "2dfd6985-9010-4278-8c38-85376ad0fc51",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "8b2841f3-f2a7-430a-b381-0b0f4cfd9672",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "D-Pad",
                     "id": "8ed5ec3c-278f-47f2-a3a6-b0815d52973b",
                     "path": "2DVector",
@@ -137,8 +82,8 @@
                 },
                 {
                     "name": "",
-                    "id": "e0329d22-f6b9-4cd5-9c1d-f121eb30075b",
-                    "path": "<XInputController>/buttonSouth",
+                    "id": "b81a1f6f-ce2d-436a-acda-77153972025f",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

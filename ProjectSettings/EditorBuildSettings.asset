@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LaserDemo.unity
     guid: 8b154fbb82efb774d9cbd40b74cab25c
+  - enabled: 1
+    path: Assets/Scenes/StreetsPuzzle2.unity
+    guid: f8f8d1ed09462d74fb315b659d50ae9a
   m_configObjects: {}
