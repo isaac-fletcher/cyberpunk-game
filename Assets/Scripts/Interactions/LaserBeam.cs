@@ -29,6 +29,10 @@ public class LaserBeam
         this.laser.startColor = laserColor;
         this.laser.endColor = laserColor;
 
+        // Set emission color to the laser's color
+        this.laser.material.EnableKeyword("_EMISSION");
+        this.laser.material.SetColor("_EmissionColor", laserColor);
+
         CastRay(pos, dir, laser);
     }
 
@@ -73,11 +77,15 @@ public class LaserBeam
 
         else
         {
-            // Check if laser hit receptable
+            // Power on receptable if it has been hit by correct laser
             if(hit.collider.gameObject == receptacle)
             {
-                Debug.Log(Color.green);
-                Debug.Log("HIT RECEPTACLE!");
+                Receiver receiverComponent = hit.collider.gameObject.GetComponent<Receiver>();
+
+                if(receiverComponent != null)
+                {
+                    receiverComponent.OnPowered();
+                }
             }
 
             laserIndices.Add(hit.point);
